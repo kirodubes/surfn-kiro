@@ -53,6 +53,11 @@ then select **Surfn Kiro** in your appearance settings.
 Built on Surfn by Erik Dubois, which itself blends Ultra Flat, Super Flat Remix, Yltra Flat, Numix (Circle)
 and Paper icons. All credit to the original artists.
 
+The 16, 22 and 24 px Places sidebar icons (Home, Desktop, Documents, Downloads, Trash, Network, Recent, ...) are
+[Breeze icons](https://invent.kde.org/frameworks/breeze-icons) by the KDE Visual Design Group, taken from
+breeze-icons 6.31.0; only their colour outside Plasma was changed to a mid grey.
+
 ## License
 
 [LICENSE](./LICENSE) — Attribution-NonCommercial-ShareAlike 4.0 International, the same as Surfn.
+The Breeze icons listed in [LICENSE-breeze](./LICENSE-breeze) keep their own licence, LGPL-3.0-or-later.

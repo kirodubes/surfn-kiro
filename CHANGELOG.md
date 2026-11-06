@@ -17,6 +17,8 @@
     wallpaper.
   - **Folders follow Plasma's accent colour.** With the accent taken from the wallpaper they match every
     wallpaper; GTK desktops keep Surfn's blue.
+  - **The Places sidebar uses Breeze's monochrome line icons** (Home, Desktop, Documents, Downloads, Trash,
+    Network, Recent, ...): dark on light, white on dark. The folders in the file view stay Surfn's, in colour.
   - **Public** shows its share glyph in Dolphin, and **Projects** has a new `</>` folder (GTK file managers).
   - Dolphin's **Recent Locations** has its own icon, a folder with a clock, instead of a plain blue folder.
 
@@ -51,6 +53,11 @@
   they look as before; the app alias `apps/scalable/folder-templates.svg` is removed (it hid the Templates folder).
 - `folder-public` added (the name KIO asks for, Surfn only had GTK's `folder-publicshare`); `folder-projects` drawn
   new. KIO has no icon name for XDG Projects, so Dolphin still shows a plain folder there.
+- Places sidebar: Breeze's 16/22/24 px icons for 17 Places names (breeze-icons 6.31.0, LGPL-3.0-or-later, listed
+  in `LICENSE-breeze`), GTK fallback colour `#8c939d`. Their bigger sizes became SVG wraps of Surfn's art (the
+  PNG-first rule). Same-name SVGs in other contexts (`document-open-recent` in actions/apps, `network-workgroup`
+  in apps/devices) moved to private names (`...-surfn-<context>.svg`) so they no longer beat the Places icon;
+  the icons that linked to them keep their art.
 - The build is deterministic now: when two colours tie for an icon's GTK fallback, the first one in the file wins
   (it was Python's set order, so two `status` icons changed grey once more).
 - Known gap: applying the global theme sets the icons for KDE apps, but GTK apps keep the previous icon theme
@@ -61,4 +68,5 @@
 
 - `usr/share/icons/Surfn-Kiro/` (new theme, based on Surfn 26.11.06)
 - `usr/share/plasma/look-and-feel/Surfn-Kiro-Dark/`, `Surfn-Kiro-Light/` (new)
+- `LICENSE-breeze` (new)
 - `README.md`, `CHANGELOG.md`, `LICENSE`, `setup.sh`, `up.sh`, `kiro.jpg`, `.gitignore`

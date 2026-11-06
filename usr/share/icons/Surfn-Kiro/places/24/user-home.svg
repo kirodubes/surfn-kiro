@@ -1,3 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
-<image width="24" height="24" style="image-rendering:optimizeSpeed" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABMklEQVR4nGNgGAUEACOxCq2sfBSZ2RgmMTAwMPz9xZB37NiW+1SxwN3dnfPbb66yfwz/KkRExJ8wMDAwvHnzUoaJgamDi/Vb186dO7+TbYG1s48PEwPzRFZWdh4zW68v8orqSgwMDAwvnty9f2LfZo5vv398/8fwN//o3i1bSLIAFhyMzIyuymqmd02tnVQZmZhZURT9Y/hz/vzBWzeunFT4//P3PlzBhmIBLDgYGP6USoorPjF38pXk4ubhw+fLHz9+fj19bMfDx/euKDAwsHaJCzF3rFmz5ieGBbDgYPjPoOTqHfVEVFJOBp/B6OD180dPdm9dJsPAyHAPOdhYYAqgAltsnfz/k2o4AwMDA0zP4b0blZHFmUg1iFQwasGoBaMW0MECFmyCy+Z00NreUYAAAMFybnyhOEueAAAAAElFTkSuQmCC"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <defs id="defs3051">
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#8c939d;
+      }
+      </style>
+  </defs>
+  <g transform="translate(1,1)">
+    <path style="fill:currentColor;fill-opacity:1;stroke:none" d="m11 3l-.707031.707031-7.292969 7.292969.707031.707031.292969-.292969v7.585938h1 5 3 5v-1-6.585938l.292969.292969.707031-.707031-3-3v-3h-3l-1.292969-1.292969-.707031-.707031m0 1.414063l6 5.999999v7.585938h-4v-5h-3-1v5h-4v-7.585938l6-5.999999" class="ColorScheme-Text"/>
+  </g>
 </svg>

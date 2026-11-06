@@ -1,3 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
-<image width="22" height="22" style="image-rendering:optimizeSpeed" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAABsUlEQVR4nO2U3ytDYRjHn/N0Go2Y443yI3fUWktiZomsIZOisHSuXLnw4xr3uCd/gdZutJIaDbvQGiEt6YQ7JUWnY5YWx/FwgdIczqxcKJ/L933e7+d53rdeDgzo7ht+NqrRg8+kaGJ64Ueh87PjgNl0kwl/L5gzKsj28QzJJri7b/j5793xf/DvB2f0V+jh8/nK71TzJAG1A2AVAMmAFOJV8wyBml1wV9dIQ0pT12y1riu7q7NYyLdwSjKRe7S71XwSj+7Te8dG9nTQdD/f4h6U7Y5W6/saE4Qct3eAWRg7jW4GS/hM7OkQYm21rfFJbxqrraliO7z8iK/2ftntHbIyi8CQxxwmCMztHbA6Pb03eoeRKC4d71zo7UnHOxc8agf4Zq/4yk5Ej5+D88djkSALhwJSQpGvSaOHhCJfh0MBKRYJMiQc49/sRXWOtpov7Er6+urq4oEoivaTeGxKikc9CJAHQDIAH7GY1Tm/33/J9fSM1oMptV5td105nO2soEAoTCaV273dDfnsKFaKmtaxsrJ0qDfRd3AAAKIoliVSpikC8iBAJQCdf7T/NBQA4AUcxcWbZw+mRwAAAABJRU5ErkJggg=="/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+  <defs id="defs3051">
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#8c939d;
+      }
+      </style>
+  </defs>
+    <path
+       style="fill:currentColor"
+       d="M 7 3 L 7 4 L 7 14.5 A 2.5 2.5 0 0 0 5.5 14 A 2.5 2.5 0 0 0 3 16.5 A 2.5 2.5 0 0 0 5.5 19 A 2.5 2.5 0 0 0 8 16.5 L 8 7 L 18 7 L 18 12.5 A 2.5 2.5 0 0 0 16.5 12 A 2.5 2.5 0 0 0 14 14.5 A 2.5 2.5 0 0 0 16.5 17 A 2.5 2.5 0 0 0 19 14.5 L 19 4 L 19 3.5 L 19 3 L 8 3 L 7 3 z M 8 4 L 18 4 L 18 6 L 8 6 L 8 4 z "
+       class="ColorScheme-Text"
+       />
 </svg>

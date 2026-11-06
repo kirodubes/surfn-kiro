@@ -1,3 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
-<image width="16" height="16" style="image-rendering:optimizeSpeed" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAzElEQVR4nO2TvwuCQBiGX4/ToSXIf0lcbs5B3JsaIrA2a0shGpzaRcjmW6R/ySQiBxVrTT1/DI292328zzN8fCdBEJ2Zb9E85qHUnFFREQAWa7f2Ph83wh7pEozNX/ADAdWYYRNQd7gquo9yJwGAxgxbVibbubmqpupM7ZO80md6CbyqyDM/5tGeAMCNR16RZ4dreCKP5J6MhYGvHQxJRHBN0CfpggGg9TmaO6FEJl1wpwAAdGY5skKXAFDkpR/zoAUPRmeWozPL6et8ABOvfnnlxiyGAAAAAElFTkSuQmCC"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <defs id="defs3051">
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#8c939d;
+      }
+      </style>
+  </defs>
+    <path 
+        style="fill:currentColor"
+        d="M 6 2 L 6 3 L 6 6 L 7 6 L 7 3 L 9 3 L 9 6 L 10 6 L 10 3 L 10 2 L 6 2 z M 3.7 6 L 3 6.7 L 6.3 10 L 8 11.7 L 9.7 10 L 13 6.7 L 12.3 6 L 9 9.3 L 8 10.3 L 7 9.3 L 3.7 6 z M 2 12 L 2 14 L 3 14 L 14 14 L 14 13 L 14 12 L 13 12 L 13 13 L 3 13 L 3 12 L 2 12 z " 
+        class="ColorScheme-Text"
+    />
 </svg>

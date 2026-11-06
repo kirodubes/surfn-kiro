@@ -1,0 +1,58 @@
+Breeze icons in Surfn Kiro
+
+These files are from breeze-icons 6.31.0 by the KDE Visual Design Group
+(https://invent.kde.org/frameworks/breeze-icons), licensed LGPL-3.0-or-later
+(https://www.gnu.org/licenses/lgpl-3.0.html). Change: the ColorScheme-Text fallback colour
+(#232629, used outside Plasma) is #8c939d.
+
+usr/share/icons/Surfn-Kiro/places/16/document-open-recent.svg
+usr/share/icons/Surfn-Kiro/places/22/document-open-recent.svg
+usr/share/icons/Surfn-Kiro/places/24/document-open-recent.svg
+usr/share/icons/Surfn-Kiro/places/16/folder-documents.svg
+usr/share/icons/Surfn-Kiro/places/22/folder-documents.svg
+usr/share/icons/Surfn-Kiro/places/24/folder-documents.svg
+usr/share/icons/Surfn-Kiro/places/16/folder-download.svg
+usr/share/icons/Surfn-Kiro/places/22/folder-download.svg
+usr/share/icons/Surfn-Kiro/places/24/folder-download.svg
+usr/share/icons/Surfn-Kiro/places/16/folder-music.svg
+usr/share/icons/Surfn-Kiro/places/22/folder-music.svg
+usr/share/icons/Surfn-Kiro/places/24/folder-music.svg
+usr/share/icons/Surfn-Kiro/places/16/folder-network.svg
+usr/share/icons/Surfn-Kiro/places/22/folder-network.svg
+usr/share/icons/Surfn-Kiro/places/24/folder-network.svg
+usr/share/icons/Surfn-Kiro/places/16/folder-open-recent.svg
+usr/share/icons/Surfn-Kiro/places/22/folder-open-recent.svg
+usr/share/icons/Surfn-Kiro/places/24/folder-open-recent.svg
+usr/share/icons/Surfn-Kiro/places/16/folder-pictures.svg
+usr/share/icons/Surfn-Kiro/places/22/folder-pictures.svg
+usr/share/icons/Surfn-Kiro/places/24/folder-pictures.svg
+usr/share/icons/Surfn-Kiro/places/16/folder-public.svg
+usr/share/icons/Surfn-Kiro/places/22/folder-public.svg
+usr/share/icons/Surfn-Kiro/places/24/folder-public.svg
+usr/share/icons/Surfn-Kiro/places/16/folder-publicshare.svg
+usr/share/icons/Surfn-Kiro/places/22/folder-publicshare.svg
+usr/share/icons/Surfn-Kiro/places/24/folder-publicshare.svg
+usr/share/icons/Surfn-Kiro/places/16/folder-recent.svg
+usr/share/icons/Surfn-Kiro/places/22/folder-recent.svg
+usr/share/icons/Surfn-Kiro/places/24/folder-recent.svg
+usr/share/icons/Surfn-Kiro/places/16/folder-templates.svg
+usr/share/icons/Surfn-Kiro/places/22/folder-templates.svg
+usr/share/icons/Surfn-Kiro/places/24/folder-templates.svg
+usr/share/icons/Surfn-Kiro/places/16/folder-videos.svg
+usr/share/icons/Surfn-Kiro/places/22/folder-videos.svg
+usr/share/icons/Surfn-Kiro/places/24/folder-videos.svg
+usr/share/icons/Surfn-Kiro/places/16/network-workgroup.svg
+usr/share/icons/Surfn-Kiro/places/22/network-workgroup.svg
+usr/share/icons/Surfn-Kiro/places/24/network-workgroup.svg
+usr/share/icons/Surfn-Kiro/places/16/user-desktop.svg
+usr/share/icons/Surfn-Kiro/places/22/user-desktop.svg
+usr/share/icons/Surfn-Kiro/places/24/user-desktop.svg
+usr/share/icons/Surfn-Kiro/places/16/user-home.svg
+usr/share/icons/Surfn-Kiro/places/22/user-home.svg
+usr/share/icons/Surfn-Kiro/places/24/user-home.svg
+usr/share/icons/Surfn-Kiro/places/16/user-trash.svg
+usr/share/icons/Surfn-Kiro/places/22/user-trash.svg
+usr/share/icons/Surfn-Kiro/places/24/user-trash.svg
+usr/share/icons/Surfn-Kiro/places/16/user-trash-full.svg
+usr/share/icons/Surfn-Kiro/places/22/user-trash-full.svg
+usr/share/icons/Surfn-Kiro/places/24/user-trash-full.svg
