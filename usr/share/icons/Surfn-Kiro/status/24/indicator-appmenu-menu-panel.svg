@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+<style type="text/css" id="current-color-scheme">.ColorScheme-Text { color:#ececec; }</style>
+ <rect class="ColorScheme-Text" width="14" x="7" y="13" height="2" style="fill:currentColor;fill-opacity:1;"/>
+ <rect class="ColorScheme-Text" width="14" x="7" y="16" height="2" style="fill:currentColor;fill-opacity:1;"/>
+ <rect class="ColorScheme-Text" width="11" x="10" y="10" height="2" style="fill:currentColor;fill-opacity:1;"/>
+ <path class="ColorScheme-Text" d="m 2 7 4.5 5.064 4.5 -5.064 l -9 0 z" style="fill:currentColor;fill-opacity:1;"/>
+ <rect class="ColorScheme-Text" width="9" x="12" y="7" height="2" style="fill:currentColor;fill-opacity:1;"/>
+</svg>
