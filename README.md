@@ -4,9 +4,9 @@
   Surfn Kiro
 </h1>
 
-![Last-Commit](https://img.shields.io/github/last-commit/erikdubois/surfn-kiro?style=for-the-badge)
+![Last-Commit](https://img.shields.io/github/last-commit/kirodubes/surfn-kiro?style=for-the-badge)
 
-<img alt="GitHub followers" src="https://img.shields.io/github/followers/erikdubois?style=flat">&nbsp;&nbsp;<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/erikdubois/surfn-kiro">&nbsp;&nbsp;<img alt="GitHub forks" src="https://img.shields.io/github/forks/erikdubois/surfn-kiro">
+<img alt="GitHub followers" src="https://img.shields.io/github/followers/erikdubois?style=flat">&nbsp;&nbsp;<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/kirodubes/surfn-kiro">&nbsp;&nbsp;<img alt="GitHub forks" src="https://img.shields.io/github/forks/kirodubes/surfn-kiro">
 
 <img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCJdmdUp5BrsWsYVQUylCMLg">&nbsp;&nbsp;<img alt="YouTube Channel Views" src="https://img.shields.io/youtube/channel/views/UCJdmdUp5BrsWsYVQUylCMLg">
 
