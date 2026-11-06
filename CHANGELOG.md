@@ -19,6 +19,10 @@
     wallpaper; GTK desktops keep Surfn's blue.
   - **The Places sidebar uses Breeze's monochrome line icons** (Home, Desktop, Documents, Downloads, Trash,
     Network, Recent, ...): dark on light, white on dark. The folders in the file view stay Surfn's, in colour.
+  - **The panel and system tray use Breeze's monochrome icons too**: a thin up arrow instead of the heavy triangle,
+    a line disc for devices, a line desktop for Show Desktop, and Breeze's volume, battery, network, Bluetooth,
+    brightness, KDE Connect and Vaults icons.
+  - Numix and Numix Circle (GPL-3.0) are named in the README's licence notes.
   - **Public** shows its share glyph in Dolphin, and **Projects** has a new `</>` folder (GTK file managers).
   - Dolphin's **Recent Locations** has its own icon, a folder with a clock, instead of a plain blue folder.
 
@@ -58,6 +62,12 @@
   PNG-first rule). Same-name SVGs in other contexts (`document-open-recent` in actions/apps, `network-workgroup`
   in apps/devices) moved to private names (`...-surfn-<context>.svg`) so they no longer beat the Places icon;
   the icons that linked to them keep their art.
+- Panel and tray: step 8 swaps 270 `-symbolic` names (the tray asks `-symbolic` first; found by tracing
+  plasmashell's icon lookups) for Breeze's: arrows, audio, microphone, battery, network (incl. Bluetooth and Wi-Fi
+  levels), notifications, brightness, night light, optical media, drives, keyboard indicators, KDE Connect, Vaults,
+  updates, camera, printer, clipboard, display. Breeze files kept in `_src/breeze-panel`; Surfn's own copies of
+  those names are removed, or kept under `<name>-surfn.svg` where other icons link to them (6 Bluetooth files).
+  `LICENSE-breeze` lists all 1,407 Breeze files.
 - The build is deterministic now: when two colours tie for an icon's GTK fallback, the first one in the file wins
   (it was Python's set order, so two `status` icons changed grey once more).
 - Known gap: applying the global theme sets the icons for KDE apps, but GTK apps keep the previous icon theme

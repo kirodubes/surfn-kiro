@@ -53,11 +53,17 @@ then select **Surfn Kiro** in your appearance settings.
 Built on Surfn by Erik Dubois, which itself blends Ultra Flat, Super Flat Remix, Yltra Flat, Numix (Circle)
 and Paper icons. All credit to the original artists.
 
-The 16, 22 and 24 px Places sidebar icons (Home, Desktop, Documents, Downloads, Trash, Network, Recent, ...) are
-[Breeze icons](https://invent.kde.org/frameworks/breeze-icons) by the KDE Visual Design Group, taken from
-breeze-icons 6.31.0; only their colour outside Plasma was changed to a mid grey.
+The 16, 22 and 24 px Places sidebar icons (Home, Desktop, Documents, Downloads, Trash, Network, Recent, ...) and
+the panel and system tray icons (arrows, volume, battery, network, Bluetooth, brightness, devices, notifications,
+KDE Connect, Vaults, ...) are [Breeze icons](https://invent.kde.org/frameworks/breeze-icons) by the KDE Visual
+Design Group, taken from breeze-icons 6.31.0; only their colour outside Plasma was changed to a mid grey.
 
 ## License
 
 [LICENSE](./LICENSE) — Attribution-NonCommercial-ShareAlike 4.0 International, the same as Surfn.
-The Breeze icons listed in [LICENSE-breeze](./LICENSE-breeze) keep their own licence, LGPL-3.0-or-later.
+Parts made by others keep their own licence:
+
+- The Breeze icons listed in [LICENSE-breeze](./LICENSE-breeze): LGPL-3.0-or-later.
+- The icons from [Numix](https://github.com/numixproject/numix-icon-theme) and
+  [Numix Circle](https://github.com/numixproject/numix-icon-theme-circle) by the Numix Project: GPL-3.0.
+  Numix is also the first theme Surfn Kiro falls back to for an icon it does not have.
