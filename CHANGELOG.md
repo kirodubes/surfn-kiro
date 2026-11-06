@@ -40,7 +40,7 @@
 - Global themes in `usr/share/plasma/look-and-feel/Surfn-Kiro-{Dark,Light}`: only `metadata.json`, a `defaults`
   file and previews. Everything they do not define (panel layout, lock screen, splash) comes from Breeze, so they
   follow Plasma updates. `[Wallpaper] Image=Next` is Plasma's own default wallpaper package, replaced each release.
-  Previews taken in a Plasma VM over the stock wallpaper.
+  Previews taken in a Plasma VM over the stock wallpaper (Hanabi), with the accent folders.
 - Accent folders: every raster folder (13 names, 9 sizes) became an SVG per size, pixel-exact. The folder body is one
   vector path with `class="ColorScheme-Accent"` (style fallback `#6ba4e7`, Surfn's blue, what GTK draws); glyph,
   paper and outline sit on top as an embedded PNG, the darker blues turned into black at the matching strength so
