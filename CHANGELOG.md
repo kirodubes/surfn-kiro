@@ -12,6 +12,7 @@
   - Dolphin's Places icons are mid grey instead of dark grey, readable on dark.
   - `edit-none` exists, so empty pages (Bluetooth, Splash Screen "None", ...) no longer show a pencil.
   - The System Sounds play button, the tray disc and show-desktop icons and the panel launcher show on light.
+  - Dolphin's **Recent Locations** has its own icon, a folder with a clock, instead of a plain blue folder.
 
 ### Technical Details
 
@@ -27,6 +28,9 @@
 - Page borders: a grey copy of the white page drawn underneath (QtSvg ignores `clipPath`, which drew a black page).
 - Full theme, not an overlay: KDE trims a missing name inside the theme (`edit-none` → `edit`) before it asks an
   inherited theme.
+- `folder-open-recent` did not exist in Surfn. At 16/22/24 px a new glyph is drawn in the Places style (folder +
+  clock); `folder-recent` cannot be reused there because at those sizes it is the bare clock of Recent Files.
+  32 px and up link to `folder-recent`, which already is a folder with a clock. Checked in Dolphin, light and dark.
 - Build scripts are kept locally in `_src/` (not published): the build reruns from a Surfn tree.
 
 ### Files Modified
