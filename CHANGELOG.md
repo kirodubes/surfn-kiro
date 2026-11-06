@@ -15,6 +15,9 @@
   - Two **Plasma global themes**, **Surfn Kiro Dark** and **Surfn Kiro Light**: Breeze Dark / Breeze Light with
     the Surfn Kiro icons, the light / dark Breeze cursor, the accent colour from the wallpaper and Plasma's stock
     wallpaper.
+  - **Folders follow Plasma's accent colour.** With the accent taken from the wallpaper they match every
+    wallpaper; GTK desktops keep Surfn's blue.
+  - **Public** shows its share glyph in Dolphin, and **Projects** has a new `</>` folder (GTK file managers).
   - Dolphin's **Recent Locations** has its own icon, a folder with a clock, instead of a plain blue folder.
 
 ### Technical Details
@@ -38,6 +41,18 @@
   file and previews. Everything they do not define (panel layout, lock screen, splash) comes from Breeze, so they
   follow Plasma updates. `[Wallpaper] Image=Next` is Plasma's own default wallpaper package, replaced each release.
   Previews taken in a Plasma VM over the stock wallpaper.
+- Accent folders: every raster folder (13 names, 9 sizes) became an SVG per size, pixel-exact. The folder body is one
+  vector path with `class="ColorScheme-Accent"` (style fallback `#6ba4e7`, Surfn's blue, what GTK draws); glyph,
+  paper and outline sit on top as an embedded PNG, the darker blues turned into black at the matching strength so
+  they darken any accent. KDE takes any `.png` size before any `.svg`, so a converted name is SVG at every size: the
+  small Places glyphs are wrapped unchanged, otherwise Dolphin scaled the 16 px glyph up instead of the folder.
+- With places/ in SVG, a same-name SVG in another scalable dir ties and can win. `document-open`,
+  `document-open-recent`, `folder-new`, `system-file-manager` and `org.gnome.Nautilus` stay real PNGs in places/ so
+  they look as before; the app alias `apps/scalable/folder-templates.svg` is removed (it hid the Templates folder).
+- `folder-public` added (the name KIO asks for, Surfn only had GTK's `folder-publicshare`); `folder-projects` drawn
+  new. KIO has no icon name for XDG Projects, so Dolphin still shows a plain folder there.
+- The build is deterministic now: when two colours tie for an icon's GTK fallback, the first one in the file wins
+  (it was Python's set order, so two `status` icons changed grey once more).
 - Known gap: applying the global theme sets the icons for KDE apps, but GTK apps keep the previous icon theme
   until the icons are picked once under Icons (or `plasma-changeicons Surfn-Kiro`). Breeze's own themes do sync.
 - Build scripts are kept locally in `_src/` (not published): the build reruns from a Surfn tree.
