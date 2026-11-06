@@ -27,6 +27,16 @@ Unlike the other Surfn variants, Surfn Kiro is a **full** theme: it does not inh
 need `surfn-icons-git`. KDE shortens a missing icon name inside the theme before it asks an inherited theme,
 so a thin overlay would show wrong icons.
 
+## Plasma global themes
+
+The package also ships two Plasma global themes (System Settings → Colours & Themes → Global Theme):
+
+- **Surfn Kiro Dark**: Breeze Dark with the Surfn Kiro icons and the light Breeze cursor.
+- **Surfn Kiro Light**: Breeze Light with the Surfn Kiro icons and the dark Breeze cursor.
+
+Both keep Breeze for everything else, take the accent colour from the wallpaper and use Plasma's stock
+wallpaper, whichever one the installed Plasma ships.
+
 ## Installation (Arch / Kiro — nemesis_repo)
 
 ```bash

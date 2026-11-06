@@ -1,0 +1,17 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Erik Dubois"
+            }
+        ],
+        "Description": "Breeze Dark with the Surfn Kiro icons, the light cursor and the accent colour from the wallpaper",
+        "Id": "Surfn-Kiro-Dark",
+        "License": "CC-BY-NC-SA-4.0",
+        "Name": "Surfn Kiro Dark",
+        "Version": "26.11",
+        "Website": "https://github.com/kirodubes/surfn-kiro"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
