@@ -1,12 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
- <circle cx="17.667" cy="17.667" r="3.333" style="fill:#dc322f;opacity:1;fill-opacity:1;"/>
- <path d="m 5.444 1 4.444 8 -8.889 0" style="fill:#268bd2;opacity:1;fill-opacity:1;"/>
- <g transform="matrix(0.55555556,0,0,0.55555556,-2.333333,-2.3333334)" style="fill:#ffe149;fill-opacity:1">
-  <path d="m 23 12.25 c -1.014 -0.014 -1.014 1.514 0 1.5 6.269 0 9.757 2.792 11.282 5.607 1.525 2.816 1.488 5.05 1.488 5.05 -0.014 1.014 1.514 1.014 1.5 0 0 0 0.057 -2.58 -1.668 -5.764 c -1.725 -3.184 -5.872 -6.393 -12.603 -6.393" mix-blend-mode="normal" isolation="auto" white-space="normal" solid-opacity="1" solid-color="#000000" style="opacity:1;color:#000;fill-rule:evenodd;"/>
-  <path d="m 33.57 21.656 c -0.254 0 -0.42 0.266 -0.309 0.494 l 2.43 4.992 c 0.125 0.255 0.487 0.257 0.615 0.004 l 2.5 -4.992 c 0.115 -0.228 -0.051 -0.498 -0.307 -0.498" mix-blend-mode="normal" isolation="auto" white-space="normal" solid-opacity="1" solid-color="#000000" style="opacity:1;color:#000;fill-rule:evenodd;"/>
- </g>
- <g transform="matrix(-0.55555556,0,0,-0.55555556,25.444294,24.888833)" style="fill:#ffe149;fill-opacity:1">
-  <path d="m 23 12.25 c -1.014 -0.014 -1.014 1.514 0 1.5 6.269 0 9.757 2.792 11.282 5.607 1.525 2.816 1.488 5.05 1.488 5.05 -0.014 1.014 1.514 1.014 1.5 0 0 0 0.057 -2.58 -1.668 -5.764 c -1.725 -3.184 -5.872 -6.393 -12.603 -6.393" mix-blend-mode="normal" isolation="auto" white-space="normal" solid-opacity="1" solid-color="#000000" style="opacity:1;color:#000;fill-rule:evenodd;"/>
-  <path d="m 33.57 21.656 c -0.254 0 -0.42 0.266 -0.309 0.494 l 2.43 4.992 c 0.125 0.255 0.487 0.257 0.615 0.004 l 2.5 -4.992 c 0.115 -0.228 -0.051 -0.498 -0.307 -0.498" mix-blend-mode="normal" isolation="auto" white-space="normal" solid-opacity="1" solid-color="#000000" style="opacity:1;color:#000;fill-rule:evenodd;"/>
- </g>
+<svg version="1.1" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style type="text/css" id="current-color-scheme"> .ColorScheme-Text { color:#8c939d; } </style>
+</defs>
+<path d="m11 3a8 8 0 0 0-7.9277344 7h1.0058594a7 7 0 0 1 6.921875-6 7 7 0 0 1 6.320312 4h-3.320312v1h5v-1-4h-1v3.1679688a8 8 0 0 0-7-4.1679688zm6.921875 9a7 7 0 0 1-6.921875 6 7 7 0 0 1-6.3105469-4h3.3105469v-1h-5v1 4h1v-3.195312a8 8 0 0 0 7 4.195312 8 8 0 0 0 7.927734-7h-1.005859z" class="ColorScheme-Text" fill="currentColor"/>
 </svg>

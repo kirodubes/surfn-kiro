@@ -1,10 +1,14 @@
-<svg width="22" xmlns="http://www.w3.org/2000/svg" height="22" viewBox="0 0 22 22">
- <path style="fill:#fff" d="M 3,1 C 0,1 0,3 0,3.964844 L 0,21 20,21 20,4 C 20,2.9998871 20,1 17,1 z"/>
- <path style="fill:#888" d="M 3,1 C 0,1 0,3 0,3.964844 L 0,21 20,21 20,4 C 20,2.9998871 20,1 17,1 z m 0,1 14,0 c 2,0 2.06238,1.0019139 2,2 L 19,20 1,20 1,4 C 1,2.9996982 1,2 3,2 z"/>
- <path style="fill-opacity:.102" d="M 1,8 7,8 7,20 1,20 z"/>
- <g style="fill:#888;fill-opacity:.902">
-  <path d="M 1,7 1,8 19,8 19,7 z"/>
-  <path d="M 7,8 7,20 8,20 8,8 z"/>
- </g>
- <path style="fill:#859900" d="M 22,14 18,14 18,9.625 14,9.6579584 14,14 l -4,0 0,4 4,0 0,4 4,0 0,-4 4,0 z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+  <defs id="defs3051">
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#8c939d;
+      }
+      </style>
+  </defs>
+ <path 
+    style="fill:currentColor;fill-opacity:1;stroke:none" 
+    d="M 3 3 L 3 19 L 19 19 L 19 3 L 3 3 z M 4 7 L 8 7 L 8 18 L 4 18 L 4 7 z M 9 7 L 18 7 L 18 18 L 9 18 L 9 7 z M 13 10 L 13 12 L 11 12 L 11 13 L 13 13 L 13 15 L 14 15 L 14 13 L 16 13 L 16 12 L 14 12 L 14 10 L 13 10 z "
+	class="ColorScheme-Text"
+    />  
 </svg>

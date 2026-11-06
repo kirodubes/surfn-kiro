@@ -1,6 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
- <rect transform="matrix(0,1,1,0,0,0)" y="5.5" x="9.5" height="3" width="4" style="fill:#fff;opacity:1;stroke-miterlimit:23.7;fill-opacity:1;stroke:#888;stroke-dashoffset:0"/>
- <rect width="4" height="6" x="2.5" y="2.5" transform="matrix(0,1,1,0,0,0)" style="fill:#fff;opacity:1;stroke-miterlimit:23.7;fill-opacity:1;stroke:#888;stroke-dashoffset:0"/>
- <rect width="1" height="14" x="-12" y="1" transform="scale(-1,1)" style="fill:#f9b13a;opacity:1;fill-opacity:1;"/>
- <rect width="2" height="4" x="-15" y="1" transform="scale(-1,1)" style="fill:#888;opacity:1;fill-opacity:1;"/>
+  <defs id="defs3051">
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#8c939d;
+      }
+      </style>
+  </defs>
+ <path style="fill:currentColor;fill-opacity:1;stroke:none" 
+       d="M 2 2 L 2 7 L 8 7 L 8 2 L 2 2 z M 10 2 L 10 14 L 11 14 L 11 2 L 10 2 z M 12 2 L 12 7 L 14 7 L 14 2 L 12 2 z M 3 3 L 7 3 L 7 6 L 3 6 L 3 3 z M 2 9 L 2 14 L 9 14 L 9 9 L 2 9 z M 3 10 L 8 10 L 8 13 L 3 13 L 3 10 z "
+     class="ColorScheme-Text"
+     />
 </svg>

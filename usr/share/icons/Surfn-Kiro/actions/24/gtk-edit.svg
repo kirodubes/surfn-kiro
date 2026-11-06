@@ -1,11 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
- <path d="M 5.3333335,2 14.666666,2 C 17,2 17,2 17,4.250275 l 0,13.49945 C 17,20 17,20 14.666666,20 L 5.3333335,20 C 3,20 3,20 3,17.749725 L 3,4.250275 C 3,2 3,2 5.3333335,2 Z" style="fill:#8c939d;stroke:#8c939d;stroke-width:2;fill-opacity:1;fill-rule:evenodd"/><path d="M 5.3333335,2 14.666666,2 C 17,2 17,2 17,4.250275 l 0,13.49945 C 17,20 17,20 14.666666,20 L 5.3333335,20 C 3,20 3,20 3,17.749725 L 3,4.250275 C 3,2 3,2 5.3333335,2 Z" style="fill:#fff;fill-opacity:1;fill-rule:evenodd"/>
- <g transform="matrix(0.58333335,0,0,0.56256865,-7.5,-4.751923)" style="fill:#888">
-  <path d="m 23.14 19.11 0 3.555 13.714 0 0 -3.555 z"/>
-  <path d="m 23.14 33.33 0 3.555 6.857 0 0 -3.555 z"/>
-  <path d="m 23.14 26.22 0 3.555 13.714 0 0 -3.555 z"/>
- </g>
- <path d="m 21 10.126 c 0 0 0.001 -0.487 -1.085 -1.114 c -1.048 -0.605 -1.536 -0.339 -1.536 -0.339 l -5.65 9.786 -0.312 3.54 2.908 -2.042" style="fill:#ff6f03;fill-opacity:1;"/>
- <path d="m 12.728 18.46 -0.312 3.54 2.908 -2.042" style="fill:#ffc13d;fill-opacity:1;"/>
- <path d="m 12.557 20.349 -0.141 1.651 1.361 -0.946" style="fill:#2d2d2d;fill-opacity:1;"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <defs id="defs3051">
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#8c939d;
+      }
+      </style>
+  </defs>
+  <g transform="translate(1,1)">
+    <path style="fill:currentColor;fill-opacity:1;stroke:none" d="m14.996094 3l-11.992188 11.992188h-.003906v4.00781h1 2 1.00781v-.003906l11.992188-11.992188-.001953-.001953.001953-.001953-4-4-.001953.001953-.001953-.001953m-1.998047 3.412109l2.589844 2.589844-7.587891 7.587891v-1.589844h-1-1v-1-.589844l6.998047-6.998047m-7.998047 7.998047v1.589844h1 1v1 .589844l-.410156.410156h-1.589844l-1-1v-1.589844l1-1" class="ColorScheme-Text"/>
+  </g>
 </svg>

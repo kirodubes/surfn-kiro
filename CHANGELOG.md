@@ -22,6 +22,9 @@
   - **The panel and system tray use Breeze's monochrome icons too**: a thin up arrow instead of the heavy triangle,
     a line disc for devices, a line desktop for Show Desktop, and Breeze's volume, battery, network, Bluetooth,
     brightness, KDE Connect and Vaults icons.
+  - **Buttons, toolbars and menus are monochrome**: the 283 action icons Surfn drew in colour (green Add, coloured
+    Install from File and Download, red Remove and Delete, ...) use Breeze's line icons at 16 to 32 px.
+    Delete keeps Breeze's red, as Breeze marks destructive actions.
   - The README's licence notes name every source that keeps its own licence: Breeze, Numix and Numix Circle,
     Papirus and Paper. New `LICENSE-third-party` lists 2,411 files by source.
   - **Public** shows its share glyph in Dolphin, and **Projects** has a new `</>` folder (GTK file managers).
@@ -69,6 +72,11 @@
   updates, camera, printer, clipboard, display. Breeze files kept in `_src/breeze-panel`; Surfn's own copies of
   those names are removed, or kept under `<name>-surfn.svg` where other icons link to them (6 Bluetooth files).
   `LICENSE-breeze` lists all 1,407 Breeze files.
+- Buttons/toolbars: step 9 swaps the 283 colourful action names that Breeze has in monochrome (only the actions
+  context, so app icons of the same name stay Surfn's; names in `_src/breeze-actions/NAMES.txt`). Aliases follow
+  to Breeze in their own folder (`add` -> `list-add`, also Surfn's 24 -> 24@2x links); links from other contexts
+  and Breeze-less large sizes keep Surfn's art as `<name>-surfn.svg` (98 files). 375 colourful action names have
+  no Breeze counterpart and stay colourful. `LICENSE-breeze` now lists 3,285 files.
 - `LICENSE-third-party`: every real file compared with the installed icon themes (byte-identical copies) plus
   Paper's author's export path in the SVGs (`_src/third_party.py`). Recoloured icons no longer match: a minimum.
 - The build is deterministic now: when two colours tie for an icon's GTK fallback, the first one in the file wins

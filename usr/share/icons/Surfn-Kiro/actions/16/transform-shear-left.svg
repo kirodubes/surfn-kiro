@@ -1,9 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
- <g transform="matrix(0,-1,-1,0,16,16)">
-  <path d="m 12 5 -8 -3 0 9 8 3 z" style="fill:#268bd2;opacity:1;fill-opacity:1;"/>
-  <path d="m 16 11 -3 0 1.5 2.5 z" style="fill:#268bd2;opacity:1;fill-opacity:1;"/>
-  <path d="m 3 5 -3 0 1.5 -2.5" style="fill:#268bd2;opacity:1;fill-opacity:1;"/>
-  <rect transform="scale(-1,1)" y="6" x="-15" height="6" width="1" style="fill:#268bd2;opacity:1;fill-opacity:1;"/>
-  <rect transform="scale(-1,1)" y="4" x="-2" height="6" width="1" style="fill:#268bd2;opacity:1;fill-opacity:1;"/>
- </g>
+  <defs id="defs3051">
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#8c939d;
+      }
+      </style>
+  </defs>
+ <path style="fill:currentColor;fill-opacity:1;stroke:none" 
+       d="M 2 2 L 2 10 L 4 10 L 4 9 L 3 9 L 3 3 L 10 3 L 10 5 L 11 5 L 11 2 L 2 2 z M 4 6 L 6 14 L 14 14 L 12 6 L 4 6 z M 5.5 7 L 11 7 L 12.5 13 L 7 13 L 5.5 7 z "
+     class="ColorScheme-Text"
+     />
 </svg>

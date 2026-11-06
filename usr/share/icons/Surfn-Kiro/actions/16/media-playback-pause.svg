@@ -1,6 +1,8 @@
-<svg width="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="16">
- <g style="fill:#268bd2">
-  <path d="M 1,1 7,1 7,15 1,15 z"/>
-  <path d="m 9,1 6,0 0,14 -6,0 z"/>
- </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+    <style type="text/css" id="current-color-scheme">
+        .ColorScheme-Text {
+            color:#8c939d;
+        }
+    </style>
+    <path d="m2 2v12h4v-12zm8 0v12h4v-12z" class="ColorScheme-Text" fill="currentColor"/>
 </svg>

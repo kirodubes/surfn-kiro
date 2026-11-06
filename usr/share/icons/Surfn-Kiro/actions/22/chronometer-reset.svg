@@ -1,8 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
- <path d="m 20 12 a 9 9 0 0 1 -18 0 9 9 0 1 1 18 0 z" style="fill:#fff;fill-rule:evenodd"/>
- <path d="m 11 2 c -5.512 0 -10 4.488 -10 10 0 5.512 4.488 10 10 10 5.512 0 10 -4.488 10 -10 0 -5.512 -4.488 -10 -10 -10 m 0 2 c 4.43 0 8 3.57 8 8 0 4.43 -3.57 8 -8 8 c -4.43 0 -8 -3.57 -8 -8 0 -4.43 3.57 -8 8 -8" style="fill:#aaa"/>
- <path d="m 1.808 4.222 c -0.392 0.392 -0.392 1.022 0 1.414 0.471 0.471 0.943 0.943 1.414 1.414 c 1.179 -1.179 2.357 -2.357 3.536 -3.536 -0.471 -0.471 -0.943 -0.943 -1.414 -1.414 c -0.392 -0.392 -1.022 -0.392 -1.414 0 z" style="fill:#aaa;opacity:1;fill-opacity:1;"/>
- <rect width="4" height="3" x="9" rx="1" style="fill:#aaa;opacity:1;fill-opacity:1;"/>
- <path d="m 20.19 4.222 c 0.392 0.392 0.392 1.022 0 1.414 -0.471 0.471 -0.943 0.943 -1.414 1.414 -1.179 -1.179 -2.357 -2.357 -3.536 -3.536 0.471 -0.471 0.943 -0.943 1.414 -1.414 0.392 -0.392 1.022 -0.392 1.414 0 z" style="fill:#aaa;opacity:1;fill-opacity:1;"/>
- <rect y="8" x="7" height="8" width="8" style="fill:#dc322f;opacity:1;fill-opacity:1;"/>
+<svg version="1.1" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style type="text/css" id="current-color-scheme"> .ColorScheme-Text { color:#8c939d; } </style>
+</defs>
+<path d="m11 3a8 8 0 0 0-7.9277344 7h1.0058594a7 7 0 0 1 6.921875-6 7 7 0 0 1 6.320312 4h-3.320312v1h5v-1-4h-1v3.1679688a8 8 0 0 0-7-4.1679688zm6.921875 9a7 7 0 0 1-6.921875 6 7 7 0 0 1-6.3105469-4h3.3105469v-1h-5v1 4h1v-3.195312a8 8 0 0 0 7 4.195312 8 8 0 0 0 7.927734-7h-1.005859z" class="ColorScheme-Text" fill="currentColor"/>
 </svg>

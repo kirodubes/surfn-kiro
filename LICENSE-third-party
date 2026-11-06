@@ -2,64 +2,45 @@ Third-party icons in Surfn-Kiro
 
 These files are byte-identical to a file of another icon theme (found by comparing contents), or carry the
 export path of Paper's author. They keep their original licence. Icons that were recoloured or edited
-no longer match and are not listed, so this is a minimum. The Breeze icons Surfn Kiro added for the Places sidebar, panel and tray are listed in LICENSE-breeze.
+no longer match and are not listed, so this is a minimum. The Breeze icons Surfn Kiro added for the Places sidebar, panel, tray, buttons and toolbars are listed in LICENSE-breeze.
 
-Numix: 1020 files, GPL-3.0, https://github.com/numixproject
-Breeze: 685 files, LGPL-3.0-or-later, https://invent.kde.org/frameworks/breeze-icons
+Numix: 1001 files, GPL-3.0, https://github.com/numixproject
+Breeze: 722 files, LGPL-3.0-or-later, https://invent.kde.org/frameworks/breeze-icons
 Papirus: 523 files, GPL-3.0, https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
 Paper: 183 files, CC BY-SA 4.0, https://github.com/snwh/paper-icon-theme
 
-2411 files in total under usr/share/icons/Surfn-Kiro/
+2429 files in total under usr/share/icons/Surfn-Kiro/
 
 == Numix
-actions/16/archive-remove.svg
-actions/16/document-save-as.svg
-actions/16/document-save.svg
 actions/16/gtk-orientation-reverse-landscape.svg
 actions/16/gtk-print-error.svg
 actions/16/media-playback-start-rtl.svg
-actions/16/media-playlist-repeat.svg
 actions/16/nemo-eject.svg
 actions/16/tap-create.svg
-actions/16/view-media-playlist.svg
-actions/22/archive-remove.svg
 actions/22/gtk-orientation-landscape.svg
 actions/22/gtk-orientation-reverse-landscape.svg
 actions/22/gtk-print-error.svg
-actions/22/mail-message.svg
 actions/22/media-playback-start-rtl.svg
-actions/22/media-playlist-repeat.svg
 actions/22/nemo-eject.svg
 actions/22/stock_mail-open-multiple.svg
 actions/22/tap-create.svg
-actions/22/view-media-playlist.svg
-actions/24/archive-remove.svg
 actions/24/gtk-orientation-landscape.svg
 actions/24/gtk-orientation-reverse-landscape.svg
 actions/24/gtk-print-error.svg
-actions/24/mail-message.svg
 actions/24/media-playback-start-rtl.svg
-actions/24/media-playlist-repeat.svg
 actions/24/nemo-eject.svg
 actions/24/stock_mail-open-multiple.svg
 actions/24/tap-create.svg
-actions/24/view-media-playlist.svg
-actions/24/view-right-new.svg
-actions/32/archive-remove.svg
 actions/32/edit-undo-archive.svg
 actions/32/gtk-orientation-landscape.svg
 actions/32/gtk-orientation-portrait.svg
 actions/32/gtk-orientation-reverse-landscape.svg
 actions/32/gtk-orientation-reverse-portrait.svg
-actions/32/list-remove-user.svg
-actions/32/mail-message.svg
 actions/32/media-playback-start-rtl.svg
 actions/32/nemo-eject.svg
 actions/32/stock_mail-open-multiple.svg
 actions/32/tap-create.svg
-actions/32/view-media-playlist.svg
 actions/32/wrapped.svg
-actions/32/x-clementine-artist.svg
 apps/scalable/1cedt.svg
 apps/scalable/3D-Coat.svg
 apps/scalable/4digits.svg
@@ -1034,12 +1015,49 @@ status/symbolic/dialog-question.svg
 status/symbolic/locked.svg
 
 == Breeze
+actions/16/document-close.svg
+actions/16/edit-delete.svg
 actions/16/gtk-connect.svg
 actions/16/gtk-disconnect.svg
+actions/16/knotes_delete.svg
+actions/16/kt-remove.svg
+actions/16/list-remove.svg
+actions/16/media-record.svg
+actions/16/media-track-remove-amarok.svg
+actions/16/remove-amarok.svg
+actions/16/remove.svg
+actions/22/document-close.svg
+actions/22/edit-delete.svg
 actions/22/gtk-connect.svg
 actions/22/gtk-disconnect.svg
+actions/22/knotes_delete.svg
+actions/22/kt-remove.svg
+actions/22/list-remove.svg
+actions/22/media-record.svg
+actions/22/media-track-remove-amarok.svg
+actions/22/process-stop.svg
+actions/22/remove-amarok.svg
+actions/22/remove.svg
+actions/24/adjustrgb.svg
+actions/24/call-stop.svg
+actions/24/document-close.svg
+actions/24/edit-delete.svg
 actions/24/gtk-connect.svg
 actions/24/gtk-disconnect.svg
+actions/24/knotes_delete.svg
+actions/24/kt-remove.svg
+actions/24/list-remove.svg
+actions/24/media-record.svg
+actions/24/media-track-remove-amarok.svg
+actions/24/process-stop.svg
+actions/24/remove-amarok.svg
+actions/24/remove.svg
+actions/32/call-stop.svg
+actions/32/document-close.svg
+actions/32/edit-delete.svg
+actions/32/globe.svg
+actions/32/help-about.svg
+actions/32/tag.svg
 applets/128/osd-duplicate.svg
 applets/128/osd-rotate-ccw.svg
 applets/128/osd-rotate-cw.svg

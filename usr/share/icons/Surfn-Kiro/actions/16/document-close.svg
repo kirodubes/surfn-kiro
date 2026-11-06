@@ -1,4 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
- <path d="M 3.7142858,0 12.285715,0 C 14,0 14,0 14,1.7777778 L 14,14.222222 C 14,16 14,16 12.285715,16 L 3.7142858,16 C 2,16 2,16 2,14.222222 L 2,1.7777778 C 2,0 2,0 3.7142858,0 z" style="fill:#8c939d;stroke:#8c939d;stroke-width:2;fill-rule:evenodd"/><path d="M 3.7142858,0 12.285715,0 C 14,0 14,0 14,1.7777778 L 14,14.222222 C 14,16 14,16 12.285715,16 L 3.7142858,16 C 2,16 2,16 2,14.222222 L 2,1.7777778 C 2,0 2,0 3.7142858,0 z" style="fill:#fff;fill-rule:evenodd"/>
- <path d="M 16,13.749999 13.75,11.5 16,9.25 13.75,7 11.5,9.25 9.25,7 7,9.25 9.25,11.5 7,13.749999 9.25,16 11.5,13.749999 13.75,16 Z" style="fill:#dc322f;fill-opacity:1"/>
+<!DOCTYPE svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+    <defs>
+        <style type="text/css" id="current-color-scheme">
+            .ColorScheme-NegativeText {
+                color:#da4453;
+            }
+        </style>
+    </defs>
+    <path d="M 3 2 L 3 14 L 8 14 L 8 13 L 4 13 L 4 3 L 9 3 L 9 6 L 12 6 L 12 8 L 13 8 L 13 5 L 10 2 L 3 2 Z M 9.707 9.03 L 9 9.737 L 10.793 11.53 L 9 13.323 L 9.707 14.03 L 11.5 12.237 L 13.293 14.03 L 14 13.323 L 12.207 11.53 L 14 9.737 L 13.293 9.03 L 11.5 10.823 L 9.707 9.03 Z" style="fill:currentColor; fill-opacity:1; stroke:none" class="ColorScheme-NegativeText"/>
 </svg>

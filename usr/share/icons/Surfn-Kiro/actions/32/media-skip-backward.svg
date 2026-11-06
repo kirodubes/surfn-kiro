@@ -1,8 +1,10 @@
-<svg width="32" xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 0 32 32">
- <path style="fill:#268bd2" d="M 30 2 L 30 30 L 12 16 Z"/>
- <path style="fill:#000;fill-opacity:.102" d="M 30 2 L 30 30 L 12 16 Z"/>
- <g style="fill:#268bd2">
-  <path d="M 20 2 L 20 30 L 2 16 Z"/>
-  <path d="M 8 2 L 2 2 L 2 30 L 8 30 Z"/>
- </g>
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+    <style
+        type="text/css"
+        id="current-color-scheme">
+        .ColorScheme-Text {
+            color:#8c939d;
+        }
+    </style>
+    <path d="M0 6v20h4V6zm18 10l14 10V6zM4 16l14 10V6z" class="ColorScheme-Text" fill="currentColor"/>
 </svg>

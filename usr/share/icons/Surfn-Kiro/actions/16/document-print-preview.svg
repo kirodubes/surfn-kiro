@@ -1,14 +1,12 @@
-<svg width="16" xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16">
- <g style="fill-rule:evenodd">
-  <path style="fill:#aaa;fill-opacity:.94" d="m 4.6666667,0.00394322 6.6666663,0 C 13,0.00394322 13,-0.16265773 13,1.6699527 l 0,6.6640378 C 13,10 13,10 11.333333,10 L 4.6666667,10 C 3,10 3,10 3,8.3339905 L 3,1.6699527 C 3,0.00394322 3,0.00394322 4.6666667,0.00394322 z"/>
-  <path style="fill:#ccc" d="M 1.6,4 14.4,4 C 16,4 16,4 16,5.6 l 0,4.8 C 16,12 16,12 14.4,12 L 1.6,12 C 0,12 0,12 0,10.4 L 0,5.6 C 0,4 0,4 1.6,4 z"/>
- </g>
- <g transform="matrix(.83333 0 0 .8 -2 -.8)">
-  <path style="fill:#dc322f" d="m 6,11 12,0 0,10 -12,0 z"/>
- </g>
- <g style="fill-rule:evenodd" transform="matrix(.83326 0 0 .83331 -1.99875 -1.99971)">
-  <path style="fill:#fff" d="m 19,12.5 a 5.5,6.5 0 1 1 -11,0 5.5,6.5 0 1 1 11,0 z" transform="matrix(1.091 0 0 .9231 -2.729 .4612)"/>
-  <path style="fill:#555" d="m 19,12.5 a 5.5,6.5 0 1 1 -11,0 5.5,6.5 0 1 1 11,0 z" transform="matrix(.7273 0 0 .6154 2.181 4.308)"/>
-  <path style="fill:#eee" d="m 19,12.5 a 5.5,6.5 0 1 1 -11,0 5.5,6.5 0 1 1 11,0 z" transform="matrix(.2727 0 0 .2308 9.818 7.615)"/>
- </g>
+<!DOCTYPE svg>
+<svg viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style type="text/css" id="current-color-scheme">
+            .ColorScheme-Text {
+                color:#8c939d;
+            }
+        </style>
+    </defs>
+    <path class="ColorScheme-Text" style="fill:currentColor; fill-opacity:1; stroke:none" d="M 3 2 L 3 14 L 10 14 L 10 13 L 4 13 L 4 3 L 9 3 L 9 6 L 12 6 L 12 11 L 13 11 L 13 5 L 10 2 L 3 2 Z"/>
+    <path class="ColorScheme-Text" style="fill:currentColor; fill-opacity:1; stroke:none" d="M 8.48828 7 C 7.10757 7 5.98828 8.11929 5.98828 9.5 C 5.98828 10.8807 7.10757 12 8.48828 12 C 8.97811 11.9992 9.45691 11.8546 9.86523 11.584 L 12.2813 14 L 12.9883 13.293 L 10.5723 10.877 C 10.8428 10.4686 10.9875 9.98983 10.9883 9.5 C 10.9883 8.11929 9.86899 7 8.48828 7 Z M 8.48828 8 C 9.31671 8 9.98828 8.67157 9.98828 9.5 C 9.98828 10.3284 9.31671 11 8.48828 11 C 7.65985 11 6.98828 10.3284 6.98828 9.5 C 6.98828 8.67157 7.65985 8 8.48828 8 Z"/>
 </svg>

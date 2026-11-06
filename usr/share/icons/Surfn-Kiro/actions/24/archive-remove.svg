@@ -1,8 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
- <g transform="matrix(1.03896,0,0,1.03896,0.57143042,0.57145)">
-  <path d="m 2.477 1.375 c -0.551 0 -1.102 0.551 -1.102 1.102 l 0 17.08 c 0 0.52 0.551 1.07 1.07 1.07 l 17.11 0 c 0.52 0 1.07 -0.551 1.07 -1.07 l 0 -17.11 c 0 -0.52 -0.551 -1.07 -1.07 -1.07" style="fill:#c19553"/>
-  <path d="m 2.477 1.375 c -0.551 0 -1.102 0.551 -1.102 1.102 l 0 6.598 c 2.137 0 17.11 0 19.25 0 l 0 -6.63 c 0 -0.52 -0.551 -1.07 -1.07 -1.07" style="fill:#fff;fill-opacity:0.196"/>
-  <path d="m 11 3.3 -1.925 0 0 -1.925 1.925 0 0 3.85 -1.925 0 0 1.925 1.925 0 0 3.866 l -1.925 -0.016 l 0 3.85 3.85 0 0 -3.85 -1.925 0.016 0 -1.941 1.925 0 0 -1.925 -1.925 0 0 -1.925 1.925 0 0 -1.925 -1.925 0 z" style="fill:#fff"/>
- </g>
- <path d="m 11 16 12 0 0 4 -12 0 z" style="fill:#dc322f"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <style type="text/css" id="current-color-scheme">.ColorScheme-Text{color:#8c939d;}.ColorScheme-NegativeText{color:#da4453;}</style>
+  <g transform="translate(1,1)">
+    <path d="m3 3v16h11v-1h-10v-14h7v1h1v-1h6v10h1v-11zm8 2h-1v1h1zm0 1v1h1v-1zm0 1h-1v1h1zm0 1v1h1v-1zm0 1h-1v1 1h2v-1h-1z" style="fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-Text"/>
+    <path d="m14 16h5v1h-5z" style="fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-NegativeText"/>
+  </g>
 </svg>

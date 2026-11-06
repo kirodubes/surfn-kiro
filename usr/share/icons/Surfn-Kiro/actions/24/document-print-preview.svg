@@ -1,14 +1,13 @@
-<svg width="24" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24">
- <g style="fill-rule:evenodd" transform="translate(0 1)">
-  <path style="fill:#aaa;fill-opacity:.94" d="m 8,1 8,0 c 2,0 2,-0.2 2,2 l 0,8 c 0,2 0,2 -2,2 L 8,13 C 6,13 6,13 6,11 L 6,3 C 6,1 6,1 8,1 z"/>
-  <path style="fill:#ccc" d="m 4,7 16,0 c 2,0 2,0 2,2 l 0,6 c 0,2 0,2 -2,2 L 4,17 C 2,17 2,17 2,15 L 2,9 C 2,7 2,7 4,7 z"/>
- </g>
- <g transform="translate(0 1)">
-  <path style="fill:#dc322f" d="m 6,11 12,0 0,10 -12,0 z"/>
- </g>
- <g style="fill-rule:evenodd">
-  <path style="fill:#fff" d="m 19,12.5 a 5.5,6.5 0 1 1 -11,0 5.5,6.5 0 1 1 11,0 z" transform="matrix(1.091 0 0 .9231 -2.729 .4612)"/>
-  <path style="fill:#555" d="m 19,12.5 a 5.5,6.5 0 1 1 -11,0 5.5,6.5 0 1 1 11,0 z" transform="matrix(.7273 0 0 .6154 2.181 4.308)"/>
-  <path style="fill:#eee" d="m 19,12.5 a 5.5,6.5 0 1 1 -11,0 5.5,6.5 0 1 1 11,0 z" transform="matrix(.2727 0 0 .2308 9.818 7.615)"/>
- </g>
+<!DOCTYPE svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" version="1.1" width="24" height="24">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+            .ColorScheme-Text {
+                color:#8c939d;
+            }
+        </style>
+  </defs>
+  <g transform="translate(1,1)">
+    <path class="ColorScheme-Text" style="fill:currentColor; fill-opacity:1; stroke:none" d="M 4 3 L 4 19 L 15 19 L 15 18 L 5 18 L 5 4 L 13 4 L 13 8 L 17 8 L 17 16 L 18 16 L 18 7 L 14 3 L 4 3 Z M 13 11 C 11.338 11 10 12.338 10 14 C 10 15.662 11.338 17 13 17 C 13.6494 17 14.2464 16.7914 14.7363 16.4434 L 17.293 19 L 18 18.293 L 15.4434 15.7363 C 15.7914 15.2464 16 14.6494 16 14 C 16 12.338 14.662 11 13 11 Z M 13 12 C 14.108 12 15 12.892 15 14 C 15 15.108 14.108 16 13 16 C 11.892 16 11 15.108 11 14 C 11 12.892 11.892 12 13 12 Z"/>
+  </g>
 </svg>

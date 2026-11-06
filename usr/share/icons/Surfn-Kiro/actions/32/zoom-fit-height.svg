@@ -1,10 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
- <path d="m 6.309 2 l 19.383 0 c 2.379 0 4.309 1.93 4.309 4.309 l 0 19.383 c 0 2.379 -1.93 4.309 -4.309 4.309 l -19.383 0 c -2.379 0 -4.309 -1.93 -4.309 -4.309 l 0 -19.383 c 0 -2.379 1.93 -4.309 4.309 -4.309 Z" style="fill:#268bd2"/>
- <g transform="matrix(0,1,-1,0,32,0)">
-  <g style="fill:#fff;fill-opacity:0.902">
-   <path d="m 10 10 0 12 12 0 0 -12 z m 2 2 8 0 0 8 -8 0 z"/>
-  </g>
-  <rect y="6" x="6" height="20" width="2" style="fill:#fff;opacity:1;fill-opacity:0.902;"/>
-  <rect width="2" height="20" x="24" y="6" style="fill:#fff;opacity:1;fill-opacity:0.902;"/>
- </g>
+<svg id="svg6" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+    <defs id="defs3051">
+    <style type="text/css" id="current-color-scheme">
+        .ColorScheme-Text {            color:#8c939d;        }
+    </style>
+    </defs>
+    <path id="path14232" d="m16 4a12 12 0 0 0-12 12 12 12 0 0 0 12 12 12 12 0 0 0 7.337891-2.541016l4.101562 4.101563a1.5 1.5 0 0 0 2.121094 0 1.5 1.5 0 0 0 0-2.121094l-4.101563-4.101562a12 12 0 0 0 2.541016-7.337891 12 12 0 0 0-12-12zm0 2a10 10 0 0 1 10 10 10 10 0 0 1-10 10 10 10 0 0 1-10-10 10 10 0 0 1 10-10zm-6 4v2 2h2v-2h8v2h2v-2-2h-12zm0 8v2 2h12v-2-2h-2v2h-8v-2h-2z" class="ColorScheme-Text" fill="currentColor" stroke-linecap="round" style="-inkscape-stroke:none;paint-order:markers stroke fill"/>
 </svg>

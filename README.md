@@ -55,7 +55,8 @@ and Paper icons. All credit to the original artists.
 
 The 16, 22 and 24 px Places sidebar icons (Home, Desktop, Documents, Downloads, Trash, Network, Recent, ...) and
 the panel and system tray icons (arrows, volume, battery, network, Bluetooth, brightness, devices, notifications,
-KDE Connect, Vaults, ...) are [Breeze icons](https://invent.kde.org/frameworks/breeze-icons) by the KDE Visual
+KDE Connect, Vaults, ...) and the small button, toolbar and menu icons that were in colour (Add, Remove, Delete,
+Install from File, Download, ...) are [Breeze icons](https://invent.kde.org/frameworks/breeze-icons) by the KDE Visual
 Design Group, taken from breeze-icons 6.31.0; only their colour outside Plasma was changed to a mid grey.
 
 ## License

@@ -1,9 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
- <rect width="1" height="12" x="3" y="2" style="fill:#268bd2;opacity:1;fill-opacity:1;"/>
- <path transform="matrix(0,-0.86602545,-0.99999998,0,35.00175,32.586271)" d="m 35.895 31 -1.732 -3 3.464 0 z" style="fill:#268bd2;opacity:1;fill-opacity:1;"/>
- <rect width="4" height="9" x="1.5" y="3.5" style="fill:#fff;opacity:1;fill-opacity:1;"/>
- <rect y="2" x="12" height="12" width="1" style="fill:#268bd2;opacity:1;fill-opacity:1;"/>
- <rect y="4.09" x="10.85" height="7.333" width="3.333" style="fill:#fff;opacity:1;fill-opacity:1;"/>
- <path d="m 1 13 5 0 0 -10 -5 0 z m 1 -1 0 -8 3 0 0 8 z m 8 0 5 0 0 -8 -5 0 z m 1 -1 0 -6 3 0 0 6 z" style="fill:#888;opacity:1;fill-opacity:1;"/>
- <path d="m 35.895 31 -1.732 -3 3.464 0 z" transform="matrix(0,-0.86602545,0.99999998,0,-19.00175,32.586271)" style="fill:#268bd2;opacity:1;fill-opacity:1;"/>
+  <defs id="defs3051">
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#8c939d;
+      }
+      </style>
+  </defs>
+ <path style="fill:currentColor;fill-opacity:1;stroke:none" 
+     d="M 7 2 L 4 4 L 7 6 L 7 2 z M 9 2 L 9 6 L 12 4 L 9 2 z M 4 6 L 4 7 L 2 7 L 2 13 L 4 13 L 4 14 L 5 14 L 5 13 L 7 13 L 7 7 L 5 7 L 5 6 L 4 6 z M 11 6 L 11 7 L 9 7 L 9 13 L 11 13 L 11 14 L 12 14 L 12 13 L 14 13 L 14 7 L 12 7 L 12 6 L 11 6 z M 3 8 L 6 8 L 6 12 L 3 12 L 3 8 z M 10 8 L 13 8 L 13 12 L 10 12 L 10 8 z "
+     class="ColorScheme-Text"
+     />
 </svg>

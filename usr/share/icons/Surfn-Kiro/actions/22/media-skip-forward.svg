@@ -1,8 +1,8 @@
-<svg width="22" xmlns="http://www.w3.org/2000/svg" height="22" viewBox="0 0 22 22">
- <path style="fill:#268bd2" d="M 1,1 1,21 14,11 z"/>
- <path style="fill-opacity:.1" d="M 1,1 1,21 14,11 z"/>
- <g style="fill:#268bd2">
-  <path d="m 17,1 4,0 0,20 -4,0 z"/>
-  <path d="M 8,1 8,21 21,11 z"/>
- </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" id="svg6">
+    <style type="text/css" id="current-color-scheme">
+        .ColorScheme-Text {
+            color:#8c939d;
+        }
+    </style>
+    <path d="m0 3v16l10-8zm10 8v8l10-8-10-8zm10 0v8h2v-16h-2z" class="ColorScheme-Text" fill="currentColor"/>
 </svg>
