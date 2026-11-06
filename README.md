@@ -61,9 +61,14 @@ Design Group, taken from breeze-icons 6.31.0; only their colour outside Plasma w
 ## License
 
 [LICENSE](./LICENSE) — Attribution-NonCommercial-ShareAlike 4.0 International, the same as Surfn.
-Parts made by others keep their own licence:
+Parts made by others keep their own licence. [LICENSE-breeze](./LICENSE-breeze) lists the Breeze icons Surfn Kiro
+added; [LICENSE-third-party](./LICENSE-third-party) lists every other file that is identical to another icon theme:
 
-- The Breeze icons listed in [LICENSE-breeze](./LICENSE-breeze): LGPL-3.0-or-later.
-- The icons from [Numix](https://github.com/numixproject/numix-icon-theme) and
+- [Breeze](https://invent.kde.org/frameworks/breeze-icons) by the KDE Visual Design Group: LGPL-3.0-or-later.
+- [Numix](https://github.com/numixproject/numix-icon-theme) and
   [Numix Circle](https://github.com/numixproject/numix-icon-theme-circle) by the Numix Project: GPL-3.0.
   Numix is also the first theme Surfn Kiro falls back to for an icon it does not have.
+- [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme): GPL-3.0.
+- [Paper](https://github.com/snwh/paper-icon-theme) by Sam Hewitt: CC BY-SA 4.0.
+
+Recoloured or edited icons no longer match a source byte for byte, so the list is a minimum.
