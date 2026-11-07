@@ -30,6 +30,11 @@
   Circle now live in the theme itself. They show Surfn's own flat icon instead of a round Numix Circle one
   (Ptyxis, PhotoQt, AppFlowy, Ghostty's `com.mitchellh.ghostty`, ...). Numix stays a fallback until the
   actions, file types and status icons follow.
+- Wave 2 of 3: the 381 icon names that went blank on a test install without Numix now live in Surfn Kiro too,
+  in XFCE and Plasma alike: tray states (Syncthing, MEGA, update levels, muted sound), file emblems, menu
+  sub-categories (`applications-ide`, `-puzzles`, ...), devices (`laptop`), toolbar actions for apps like
+  Inkscape and digiKam, rare file types, a few folders and emotes. They are Numix's own drawings, so nothing
+  changes on screen: they look as they did with Numix installed.
 
 ### Technical Details
 
@@ -84,6 +89,13 @@
   same target; the one real file (`drakconf.svg`) is copied and credited in `LICENSE-third-party`. Checked
   with GTK and `kiconfinder6`: the names resolve inside Surfn-Kiro, and the hq menu icons are unchanged
   apart from Ghostty (its own icon before, Surfn's `ghostty.svg` now).
+- New step 19 reads the name list `_src/numix-wave2.txt` (measured on the VM: names GTK found nowhere once
+  both Numix packages were removed; folder colour copies left out). Each Numix size lands in Surfn's folder of
+  the same type and size, or in the type's `scalable` folder (`symbolic` for emotes) when Surfn has no such
+  size; the largest drawing goes there. Links are copied as files, so the Numix look is kept even where Surfn
+  has its own art for the link target. 1,105 files, no new folders. KDE looks for the exact name in every
+  inherited theme before shortening it, so Plasma used these Numix icons too (374 of 381, checked with
+  `kiconfinder6`).
 - `LICENSE-breeze`: 34 files added (3,319).
 - Variety asks `variety-indicator` (`-dark` with the Dark option). Surfn keeps those in `panel/`, and KDE skips
   folders with `Context=Panel`: KIconLoader then drops the last part of the name and shows `variety`. New step 11
@@ -108,6 +120,7 @@
 - `usr/share/icons/Surfn-Kiro/apps/scalable/{btop,org.gnome.Resources,utilities-system-monitor}.svg` (own colours),
   `utilities-system-monitor-green.svg` (new), `{org.xfce.taskmanager,xfce4-taskmanager}.svg` (links to it)
 - `usr/share/icons/Surfn-Kiro/actions/symbolic/{go-up,go-home}-symbolic.svg`, `system-search-symbolic.svg` (new link)
+- `usr/share/icons/Surfn-Kiro/{actions,mimetypes,status,places,categories,emblems,devices,emotes}/*` (1,105 new)
 - `usr/share/icons/Surfn-Kiro/apps/scalable/*` (1,027 new: 1,026 links + `drakconf.svg`), `LICENSE-third-party`
 - `usr/share/icons/Surfn-Kiro/status/64@2x` (removed), `index.theme` (`status/64` entries), `_src/build_round2.py`
 - `LICENSE-breeze`
