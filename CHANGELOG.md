@@ -24,6 +24,8 @@
 - Thunar's toolbar icons match in size and line weight. Up and Home were solid shapes and looked bigger than the
   thin Back/Forward arrows, and Search was Numix's thick ring. Up is now Surfn's arrow, Home a thin line house,
   and Search Surfn's thin magnifier.
+- A broken icon link is gone: `status/64@2x` pointed to an empty `status/64` folder that the package never
+  shipped (git keeps no empty folders).
 
 ### Technical Details
 
@@ -71,6 +73,8 @@
   - None of the three had aliases, so only these names change.
 - New step 12: the build writes `Name=Surfn Kiro` / `Comment=` itself. Before, a rebuild reset `index.theme` to
   Surfn's name. `changed.tsv` moves from `usr/share/icons/` (it would ship) to `_src/`.
+- New step 17: empty size folders are removed with their `@2x` link and their `index.theme` entries (only
+  `status/64` today). Found on a test install of the v26.11.07 ISO.
 - `LICENSE-breeze`: 34 files added (3,319).
 - Variety asks `variety-indicator` (`-dark` with the Dark option). Surfn keeps those in `panel/`, and KDE skips
   folders with `Context=Panel`: KIconLoader then drops the last part of the name and shows `variety`. New step 11
@@ -95,6 +99,7 @@
 - `usr/share/icons/Surfn-Kiro/apps/scalable/{btop,org.gnome.Resources,utilities-system-monitor}.svg` (own colours),
   `utilities-system-monitor-green.svg` (new), `{org.xfce.taskmanager,xfce4-taskmanager}.svg` (links to it)
 - `usr/share/icons/Surfn-Kiro/actions/symbolic/{go-up,go-home}-symbolic.svg`, `system-search-symbolic.svg` (new link)
+- `usr/share/icons/Surfn-Kiro/status/64@2x` (removed), `index.theme` (`status/64` entries), `_src/build_round2.py`
 - `LICENSE-breeze`
 - `usr/share/icons/Surfn-Kiro/**` panel/tray/session icons: fallback colour `#8c939d` → `#ffffff` (~760 files)
 - `LICENSE-breeze`
