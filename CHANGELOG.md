@@ -17,6 +17,8 @@
   - The tray and the session icons (Log Out, Restart, Shut Down, Suspend, Switch User) are white. They had been
     mid-grey, and Log Out was Surfn's green disc.
   - Variety's tray icon is white like the rest of the XFCE tray.
+- Journald Browser, Resources and tuned-gui showed Breeze's or the app's own icon. They now use Surfn's log
+  viewer, system monitor and CPU-chip icons, the same mapping neo-candy-icons uses.
 
 ### Technical Details
 
@@ -45,6 +47,12 @@
   - GTK takes the last of two equal-size folders, so XFCE gets Surfn's colour.
   - KDE ignores folders whose context it doesn't know, so Plasma keeps Breeze.
   - Checked on the VM with GTK lookups, `kiconfinder6` and XFCE's desktop menu.
+- New step 14: relative links in `apps/scalable`:
+  - `org.kde.kjournaldbrowser` → `utilities-log-viewer`
+  - `org.gnome.Resources` → `utilities-system-monitor`
+  - `tuned` → `indicator-cpufreq`
+
+  Checked with `kiconfinder6` on the VM.
 - New step 12: the build writes `Name=Surfn Kiro` / `Comment=` itself. Before, a rebuild reset `index.theme` to
   Surfn's name. `changed.tsv` moves from `usr/share/icons/` (it would ship) to `_src/`.
 - `LICENSE-breeze`: 34 files added (3,319).
@@ -67,6 +75,7 @@
 - `usr/share/icons/Surfn-Kiro/apps/scalable/user-identity.svg` (link to `user.svg` -> own line drawing)
 - `usr/share/icons/Surfn-Kiro/actions/{16,22,24,32}/xfsm-logout.svg` (link to `system-log-out.svg`)
 - `usr/share/icons/Surfn-Kiro/actions-gtk/*` (new, 2,262 files), `index.theme` (8 folders)
+- `usr/share/icons/Surfn-Kiro/apps/scalable/{org.kde.kjournaldbrowser,org.gnome.Resources,tuned}.svg` (new links)
 - `usr/share/icons/Surfn-Kiro/**` panel/tray/session icons: fallback colour `#8c939d` → `#ffffff` (~760 files)
 - `LICENSE-breeze`
 - `LICENSE-third-party`, `README.md`
