@@ -71,5 +71,10 @@ added; [LICENSE-third-party](./LICENSE-third-party) lists every other file that 
   Numix is also the first theme Surfn Kiro falls back to for an icon it does not have.
 - [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme): GPL-3.0.
 - [Paper](https://github.com/snwh/paper-icon-theme) by Sam Hewitt: CC BY-SA 4.0.
+- [Ultra Flat](https://github.com/Ultra-Flat-Icons/Ultra-Flat-Icons) by Steftrikia: CC BY-NC-SA 4.0.
+- [Flattr](https://github.com/NitruxSA/flattr-icons) by Uri Herrera: CC BY-NC-SA 4.0.
+- [Super Flat Remix](https://github.com/daniruiz/Super-Flat-Remix) by Daniel Ruiz de Alegría: CC BY-NC-SA 4.0
+  (one icon).
+- [Flat Remix](https://github.com/daniruiz/flat-remix) by Daniel Ruiz de Alegría: GPL-3.0 (one icon).
 
 Recoloured or edited icons no longer match a source byte for byte, so the list is a minimum.

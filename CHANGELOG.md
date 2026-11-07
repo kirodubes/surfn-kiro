@@ -38,6 +38,10 @@
   `status/symbolic`. GTK still sees the `panel/` copies too. The first version carried the path's `d` twice
   (invalid XML: Qt drew it, GTK's loader refused it, an empty spot in the XFCE tray); fixed, checked with `xmllint`
   and a GTK load of every new icon.
+- Credits for the sets Surfn was first built from: `LICENSE-third-party` lists 163 more files (2,592) from Ultra
+  Flat (158), Flattr (3) and Super Flat Remix (1), all CC BY-NC-SA 4.0, and one Flat Remix icon (GPL-3.0); the
+  README credits them too. Same byte-identical comparison as Surfn's; an Ultra Flat + Flattr match is listed under
+  Flattr, an Ultra Flat + Super Flat Remix match under Ultra Flat.
 
 ### Files Modified
 
@@ -47,6 +51,7 @@
 - `usr/share/icons/Surfn-Kiro/apps/scalable/user-identity.svg` (link to `user.svg` -> own line drawing)
 - `usr/share/icons/Surfn-Kiro/actions/{16,22,24,32,scalable}/xfsm-logout.svg` (link to `system-logout.svg`)
 - `LICENSE-breeze`
+- `LICENSE-third-party`, `README.md`
 - `CHANGELOG.md`
 
 ## 2026.11.06 — Surfn Kiro: Surfn tuned for Plasma light and dark
