@@ -4,7 +4,7 @@ These files are byte-identical to a file of another icon theme (found by compari
 export path of Paper's author. They keep their original licence. Icons that were recoloured or edited
 no longer match and are not listed, so this is a minimum. The Breeze icons Surfn Kiro added for the Places sidebar, panel, tray, buttons and toolbars are listed in LICENSE-breeze.
 
-Numix: 1001 files, GPL-3.0, https://github.com/numixproject
+Numix: 1002 files, GPL-3.0, https://github.com/numixproject
 Breeze: 722 files, LGPL-3.0-or-later, https://invent.kde.org/frameworks/breeze-icons
 Papirus: 523 files, GPL-3.0, https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
 Paper: 183 files, CC BY-SA 4.0, https://github.com/snwh/paper-icon-theme
@@ -13,9 +13,10 @@ Flattr: 3 files, CC BY-NC-SA 4.0, Uri Herrera, https://github.com/NitruxSA/flatt
 Super Flat Remix: 1 file, CC BY-NC-SA 4.0, Daniel Ruiz de Alegria, https://github.com/daniruiz/Super-Flat-Remix
 Flat Remix: 1 file, GPL-3.0, Daniel Ruiz de Alegria, https://github.com/daniruiz/flat-remix
 
-2592 files in total under usr/share/icons/Surfn-Kiro/
+2593 files in total under usr/share/icons/Surfn-Kiro/
 
 == Numix
+apps/scalable/drakconf.svg
 actions/16/gtk-orientation-reverse-landscape.svg
 actions/16/gtk-print-error.svg
 actions/16/media-playback-start-rtl.svg

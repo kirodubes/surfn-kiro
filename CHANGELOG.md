@@ -26,6 +26,10 @@
   and Search Surfn's thin magnifier.
 - A broken icon link is gone: `status/64@2x` pointed to an empty `status/64` folder that the package never
   shipped (git keeps no empty folders).
+- Surfn Kiro starts to stand on its own (wave 1 of 3, apps): 1,027 app names it used to borrow from Numix
+  Circle now live in the theme itself. They show Surfn's own flat icon instead of a round Numix Circle one
+  (Ptyxis, PhotoQt, AppFlowy, Ghostty's `com.mitchellh.ghostty`, ...). Numix stays a fallback until the
+  actions, file types and status icons follow.
 
 ### Technical Details
 
@@ -75,6 +79,11 @@
   Surfn's name. `changed.tsv` moves from `usr/share/icons/` (it would ship) to `_src/`.
 - New step 17: empty size folders are removed with their `@2x` link and their `index.theme` entries (only
   `status/64` today). Found on a test install of the v26.11.07 ISO.
+- New step 18 reads Numix Circle's `48/apps` (installed on the build box). For each name Surfn Kiro has no file
+  for: 1,026 are Numix Circle aliases, written as relative links in `apps/scalable` to Surfn's own art of the
+  same target; the one real file (`drakconf.svg`) is copied and credited in `LICENSE-third-party`. Checked
+  with GTK and `kiconfinder6`: the names resolve inside Surfn-Kiro, and the hq menu icons are unchanged
+  apart from Ghostty (its own icon before, Surfn's `ghostty.svg` now).
 - `LICENSE-breeze`: 34 files added (3,319).
 - Variety asks `variety-indicator` (`-dark` with the Dark option). Surfn keeps those in `panel/`, and KDE skips
   folders with `Context=Panel`: KIconLoader then drops the last part of the name and shows `variety`. New step 11
@@ -99,6 +108,7 @@
 - `usr/share/icons/Surfn-Kiro/apps/scalable/{btop,org.gnome.Resources,utilities-system-monitor}.svg` (own colours),
   `utilities-system-monitor-green.svg` (new), `{org.xfce.taskmanager,xfce4-taskmanager}.svg` (links to it)
 - `usr/share/icons/Surfn-Kiro/actions/symbolic/{go-up,go-home}-symbolic.svg`, `system-search-symbolic.svg` (new link)
+- `usr/share/icons/Surfn-Kiro/apps/scalable/*` (1,027 new: 1,026 links + `drakconf.svg`), `LICENSE-third-party`
 - `usr/share/icons/Surfn-Kiro/status/64@2x` (removed), `index.theme` (`status/64` entries), `_src/build_round2.py`
 - `LICENSE-breeze`
 - `usr/share/icons/Surfn-Kiro/**` panel/tray/session icons: fallback colour `#8c939d` → `#ffffff` (~760 files)
