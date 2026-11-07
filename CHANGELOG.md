@@ -31,7 +31,9 @@
 - Variety asks `variety-indicator` (`-dark` with the Dark option). Surfn keeps those in `panel/`, and KDE skips
   folders with `Context=Panel`: KIconLoader then drops the last part of the name and shows `variety`. New step 11
   writes `_src/tray/variety-indicator.svg` (`ColorScheme-Text`, fallback `#8c939d`) as both names in
-  `status/symbolic`. GTK still sees the `panel/` copies too.
+  `status/symbolic`. GTK still sees the `panel/` copies too. The first version carried the path's `d` twice
+  (invalid XML: Qt drew it, GTK's loader refused it, an empty spot in the XFCE tray); fixed, checked with `xmllint`
+  and a GTK load of every new icon.
 
 ### Files Modified
 
