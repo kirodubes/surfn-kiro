@@ -1,5 +1,29 @@
 # Changelog
 
+## 2026.11.07 — Log out and Shut down in white on the leave screen
+
+### What Changed
+
+- The Plasma leave screen showed Log Out as Surfn's green disc (and Shut Down as its red one) next to a white Cancel.
+  Both are now Breeze's monochrome line icons, white on dark and dark on light, like Cancel.
+
+### Technical Details
+
+- The greeter asks for a large size: `system-log-out` and `system-shutdown` were still Surfn's colour art at 32 px
+  and scalable. Step 9 only swapped names that Surfn drew in colour at small sizes, so these two were missed.
+- Both names are added to `_src/breeze-actions` (Breeze files + `NAMES.txt`) and the step was run for them:
+  Breeze's 16-32 px files (with `@2x`), Surfn's scalable copies removed so lookup takes Breeze's 32 px.
+- Aliases keep Surfn's art where Breeze has no file of that size (`application-exit`, `gtk-quit`, ... at 16 px and
+  scalable) through `system-shutdown-surfn.svg`; `system-logout.svg` (Surfn's own name) stays as it was.
+- `LICENSE-breeze`: 14 files added (3,299).
+
+### Files Modified
+
+- `usr/share/icons/Surfn-Kiro/actions/{16,22,24,32}*/system-log-out.svg`, `.../system-shutdown.svg`
+- `usr/share/icons/Surfn-Kiro/actions/{16,scalable}/system-shutdown-surfn.svg` (new) and the shutdown aliases there
+- `LICENSE-breeze`
+- `CHANGELOG.md`
+
 ## 2026.11.06 — Surfn Kiro: Surfn tuned for Plasma light and dark
 
 ### What Changed
