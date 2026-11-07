@@ -1,26 +1,30 @@
 # Changelog
 
-## 2026.11.07 — Log out and Shut down in white on the leave screen
+## 2026.11.07 — The leave screen in white
 
 ### What Changed
 
 - The Plasma leave screen showed Log Out as Surfn's green disc (and Shut Down as its red one) next to a white Cancel.
-  Both are now Breeze's monochrome line icons, white on dark and dark on light, like Cancel.
+  Every button there (Log Out, Restart, Shut Down, Sleep, Hibernate) is now Breeze's monochrome line icon, white on
+  dark and dark on light, like Cancel.
 
 ### Technical Details
 
-- The greeter asks for a large size: `system-log-out` and `system-shutdown` were still Surfn's colour art at 32 px
-  and scalable. Step 9 only swapped names that Surfn drew in colour at small sizes, so these two were missed.
-- Both names are added to `_src/breeze-actions` (Breeze files + `NAMES.txt`) and the step was run for them:
-  Breeze's 16-32 px files (with `@2x`), Surfn's scalable copies removed so lookup takes Breeze's 32 px.
+- The greeter asks for `iconSizes.huge` (64 px). Two things gave it Surfn's colour art:
+  - `actions/32` and `actions/scalable` of `system-log-out` / `system-shutdown`: step 9 only swapped names Surfn drew
+    in colour at small sizes. `system-log-out`, `system-reboot`, `system-shutdown`, `system-suspend` and
+    `system-suspend-hibernate` are now in `_src/breeze-actions` (Breeze files + `NAMES.txt`): Breeze's 16-32 px.
+  - Surfn's app icons of the same names (`apps/scalable`, Size 48) beat Breeze's `actions/32` at 64 px. New step 10
+    (`_src/accent/make_leave_screen.py`) moves them to `<name>-surfn.svg`; the icons linking to them keep their art
+    (`reboot`, `view-refresh`, `xfpm-suspend`, ...).
 - Aliases keep Surfn's art where Breeze has no file of that size (`application-exit`, `gtk-quit`, ... at 16 px and
   scalable) through `system-shutdown-surfn.svg`; `system-logout.svg` (Surfn's own name) stays as it was.
-- `LICENSE-breeze`: 14 files added (3,299).
+- `LICENSE-breeze`: 34 files added (3,319).
 
 ### Files Modified
 
-- `usr/share/icons/Surfn-Kiro/actions/{16,22,24,32}*/system-log-out.svg`, `.../system-shutdown.svg`
-- `usr/share/icons/Surfn-Kiro/actions/{16,scalable}/system-shutdown-surfn.svg` (new) and the shutdown aliases there
+- `usr/share/icons/Surfn-Kiro/actions/*/system-{log-out,reboot,shutdown,suspend,suspend-hibernate}.svg`
+- `usr/share/icons/Surfn-Kiro/{actions,apps}/*/system-*-surfn.svg` (new) and the aliases linking to them
 - `LICENSE-breeze`
 - `CHANGELOG.md`
 

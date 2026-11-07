@@ -5,7 +5,7 @@ These files are from breeze-icons 6.31.0 by the KDE Visual Design Group
 (https://www.gnu.org/licenses/lgpl-3.0.html). Change: the ColorScheme-Text fallback colour
 (#232629, used outside Plasma) is #8c939d.
 
-3299 files under usr/share/icons/Surfn-Kiro/:
+3319 files under usr/share/icons/Surfn-Kiro/:
 
 actions/16/address-book-new.svg
 actions/16/align-horizontal-bottom-out.svg
@@ -239,6 +239,7 @@ actions/16/shear.svg
 actions/16/similarartists-amarok.svg
 actions/16/split.svg
 actions/16/system-log-out.svg
+actions/16/system-reboot.svg
 actions/16/system-search.svg
 actions/16/tab-new.svg
 actions/16/tag-new.svg
@@ -534,6 +535,7 @@ actions/16@2x/shear.svg
 actions/16@2x/similarartists-amarok.svg
 actions/16@2x/split.svg
 actions/16@2x/system-log-out.svg
+actions/16@2x/system-reboot.svg
 actions/16@2x/system-search.svg
 actions/16@2x/tab-new.svg
 actions/16@2x/tag-new.svg
@@ -835,8 +837,11 @@ actions/22/shear.svg
 actions/22/similarartists-amarok.svg
 actions/22/split.svg
 actions/22/system-log-out.svg
+actions/22/system-reboot.svg
 actions/22/system-search.svg
 actions/22/system-shutdown.svg
+actions/22/system-suspend-hibernate.svg
+actions/22/system-suspend.svg
 actions/22/system-upgrade.svg
 actions/22/tab-new.svg
 actions/22/tag-new.svg
@@ -1138,8 +1143,11 @@ actions/22@2x/shear.svg
 actions/22@2x/similarartists-amarok.svg
 actions/22@2x/split.svg
 actions/22@2x/system-log-out.svg
+actions/22@2x/system-reboot.svg
 actions/22@2x/system-search.svg
 actions/22@2x/system-shutdown.svg
+actions/22@2x/system-suspend-hibernate.svg
+actions/22@2x/system-suspend.svg
 actions/22@2x/system-upgrade.svg
 actions/22@2x/tab-new.svg
 actions/22@2x/tag-new.svg
@@ -1441,8 +1449,11 @@ actions/24/shear.svg
 actions/24/similarartists-amarok.svg
 actions/24/split.svg
 actions/24/system-log-out.svg
+actions/24/system-reboot.svg
 actions/24/system-search.svg
 actions/24/system-shutdown.svg
+actions/24/system-suspend-hibernate.svg
+actions/24/system-suspend.svg
 actions/24/system-upgrade.svg
 actions/24/tab-new.svg
 actions/24/tag-new.svg
@@ -1744,8 +1755,11 @@ actions/24@2x/shear.svg
 actions/24@2x/similarartists-amarok.svg
 actions/24@2x/split.svg
 actions/24@2x/system-log-out.svg
+actions/24@2x/system-reboot.svg
 actions/24@2x/system-search.svg
 actions/24@2x/system-shutdown.svg
+actions/24@2x/system-suspend-hibernate.svg
+actions/24@2x/system-suspend.svg
 actions/24@2x/system-upgrade.svg
 actions/24@2x/tab-new.svg
 actions/24@2x/tag-new.svg
@@ -1897,8 +1911,11 @@ actions/32/media-seek-forward.svg
 actions/32/media-skip-backward.svg
 actions/32/media-skip-forward.svg
 actions/32/system-log-out.svg
+actions/32/system-reboot.svg
 actions/32/system-search.svg
 actions/32/system-shutdown.svg
+actions/32/system-suspend-hibernate.svg
+actions/32/system-suspend.svg
 actions/32/tag.svg
 actions/32/view-list-details.svg
 actions/32/view-list-icons.svg
@@ -2003,8 +2020,11 @@ actions/32@2x/media-seek-forward.svg
 actions/32@2x/media-skip-backward.svg
 actions/32@2x/media-skip-forward.svg
 actions/32@2x/system-log-out.svg
+actions/32@2x/system-reboot.svg
 actions/32@2x/system-search.svg
 actions/32@2x/system-shutdown.svg
+actions/32@2x/system-suspend-hibernate.svg
+actions/32@2x/system-suspend.svg
 actions/32@2x/tag.svg
 actions/32@2x/view-list-details.svg
 actions/32@2x/view-list-icons.svg
