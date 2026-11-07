@@ -21,6 +21,9 @@
   viewer, system monitor and CPU-chip icons, the same mapping neo-candy-icons uses.
 - Resources, btop++, System Monitor and Task Manager had the same monitor icon. The graph line now has its own
   colour per app: cyan, orange, magenta, and green for Task Manager.
+- Thunar's toolbar icons match in size and line weight. Up and Home were solid shapes and looked bigger than the
+  thin Back/Forward arrows, and Search was Numix's thick ring. Up is now Surfn's arrow, Home a thin line house,
+  and Search Surfn's thin magnifier.
 
 ### Technical Details
 
@@ -61,6 +64,11 @@
   - `org.gnome.Resources` → `#00c6ff` (real file)
   - `utilities-system-monitor` → `#ff4fd8`; Plasma's System Monitor, ksysguard and the other monitor aliases follow it.
   - `org.xfce.taskmanager` / `xfce4-taskmanager` → the kept original, `utilities-system-monitor-green.svg`.
+- New step 16 (`actions/symbolic`, Erik's pick: row 4 of four):
+  - `go-up-symbolic` = Surfn's `go-previous-symbolic` turned 90°.
+  - `go-home-symbolic` = Breeze's 16 px `go-home` (`_src/toolbar`, LGPL; `LICENSE-breeze` now 3,320 files, and its header notes the white fallback).
+  - `system-search-symbolic` (new) → link to `edit-find-symbolic`. Before, Surfn had none, so the lookup fell to Numix.
+  - None of the three had aliases, so only these names change.
 - New step 12: the build writes `Name=Surfn Kiro` / `Comment=` itself. Before, a rebuild reset `index.theme` to
   Surfn's name. `changed.tsv` moves from `usr/share/icons/` (it would ship) to `_src/`.
 - `LICENSE-breeze`: 34 files added (3,319).
@@ -86,6 +94,8 @@
 - `usr/share/icons/Surfn-Kiro/apps/scalable/{org.kde.kjournaldbrowser,tuned}.svg` (new links)
 - `usr/share/icons/Surfn-Kiro/apps/scalable/{btop,org.gnome.Resources,utilities-system-monitor}.svg` (own colours),
   `utilities-system-monitor-green.svg` (new), `{org.xfce.taskmanager,xfce4-taskmanager}.svg` (links to it)
+- `usr/share/icons/Surfn-Kiro/actions/symbolic/{go-up,go-home}-symbolic.svg`, `system-search-symbolic.svg` (new link)
+- `LICENSE-breeze`
 - `usr/share/icons/Surfn-Kiro/**` panel/tray/session icons: fallback colour `#8c939d` → `#ffffff` (~760 files)
 - `LICENSE-breeze`
 - `LICENSE-third-party`, `README.md`
