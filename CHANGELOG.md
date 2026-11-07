@@ -35,6 +35,8 @@
   sub-categories (`applications-ide`, `-puzzles`, ...), devices (`laptop`), toolbar actions for apps like
   Inkscape and digiKam, rare file types, a few folders and emotes. They are Numix's own drawings, so nothing
   changes on screen: they look as they did with Numix installed.
+- Wave 3 of 3: Surfn Kiro stands on its own. It no longer falls back to Numix, Numix Circle, Paper, Papirus or
+  Moka, so the Numix packages can leave the ISO (kiro-iso and kiro-iso-next, same day).
 
 ### Technical Details
 
@@ -96,6 +98,8 @@
   has its own art for the link target. 1,105 files, no new folders. KDE looks for the exact name in every
   inherited theme before shortening it, so Plasma used these Numix icons too (374 of 381, checked with
   `kiconfinder6`).
+- `index.theme`: `Inherits=breeze,gnome,hicolor` (was `Numix,Numix-Circle,breeze,Paper,Papirus,Moka,gnome,hicolor`),
+  written by step 12 so a rebuild keeps it. Breeze stays: Plasma needs it, and Surfn Kiro is partly built from it.
 - `LICENSE-breeze`: 34 files added (3,319).
 - Variety asks `variety-indicator` (`-dark` with the Dark option). Surfn keeps those in `panel/`, and KDE skips
   folders with `Context=Panel`: KIconLoader then drops the last part of the name and shows `variety`. New step 11
@@ -120,6 +124,7 @@
 - `usr/share/icons/Surfn-Kiro/apps/scalable/{btop,org.gnome.Resources,utilities-system-monitor}.svg` (own colours),
   `utilities-system-monitor-green.svg` (new), `{org.xfce.taskmanager,xfce4-taskmanager}.svg` (links to it)
 - `usr/share/icons/Surfn-Kiro/actions/symbolic/{go-up,go-home}-symbolic.svg`, `system-search-symbolic.svg` (new link)
+- `usr/share/icons/Surfn-Kiro/index.theme` (`Inherits=`), `README.md` (Numix credit)
 - `usr/share/icons/Surfn-Kiro/{actions,mimetypes,status,places,categories,emblems,devices,emotes}/*` (1,105 new)
 - `usr/share/icons/Surfn-Kiro/apps/scalable/*` (1,027 new: 1,026 links + `drakconf.svg`), `LICENSE-third-party`
 - `usr/share/icons/Surfn-Kiro/status/64@2x` (removed), `index.theme` (`status/64` entries), `_src/build_round2.py`
