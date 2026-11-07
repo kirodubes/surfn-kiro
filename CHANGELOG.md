@@ -9,9 +9,14 @@
   dark and dark on light, like Cancel.
 - The user picture on the leave screen (when no face is set) was Surfn's orange avatar; it is now a line person in
   Breeze's shape, in the same white and with the same thin line as the buttons beneath it.
-- XFCE's Log Out in the menu keeps Surfn's green disc: it uses XFCE's own name `xfsm-logout`, which Plasma never asks.
 - Variety's tray icon was the colourful Variety app icon on Plasma; it is now a monochrome line icon (Surfn-Plasma's
   art), white on dark and dark on light.
+- XFCE (later the same day, Erik's call):
+  - Menus and toolbars show Surfn's own colourful action icons again: Create URL Link, Paste, Create Document,
+    Delete, Arrange Desktop Icons and the rest. Plasma keeps Breeze's line icons.
+  - The tray and the session icons (Log Out, Restart, Shut Down, Suspend, Switch User) are white. They had been
+    mid-grey, and Log Out was Surfn's green disc.
+  - Variety's tray icon is white like the rest of the XFCE tray.
 
 ### Technical Details
 
@@ -28,9 +33,20 @@
   writes `_src/leave/user-identity.svg` there; the other names linking to `user.svg` keep Surfn's orange. Breeze's
   24 px person scaled to ~66 px drew 2.7 px lines next to the ~1 px of the 32 px buttons, so it is redrawn as
   strokes (circle + arc on Breeze's 24 px grid, `stroke-width` 0.5).
-- `xfsm-logout` (XFCE's Log Out entry) linked to `system-log-out`, so it followed to Breeze. Step 10 links it to
-  Surfn's `system-logout` (green, every size; `32` and `scalable` new), so the XFCE menu stays colourful while the
-  leave screen's `system-log-out` stays white.
+- `xfsm-logout` (XFCE's Log Out entry) now links to Breeze's `system-log-out` at 16-32 px, which has the white
+  fallback. A morning build had linked it to Surfn's green `system-logout`; Erik wants it white. No scalable copy:
+  GTK uses the 32 px one.
+- GTK ignores the Plasma hook and draws the `ColorScheme-Text` fallback. `make_breeze_icons.py` now writes
+  `#ffffff` instead of `#8c939d` for everything from step 8 (`white=True`: panel/tray) and for every
+  session/power name (`SESSION` pattern) in any step. Menu and toolbar icons keep `#8c939d`.
+  `_src/tray/variety-indicator.svg` fallback → `#ffffff`.
+- New step 13: `actions-gtk/{16,22,24,32}` (+ `@2x`), 2,262 files of Surfn's own art for the step-9 names. Session
+  names are left out. The folders are listed last with `Context=Panel`:
+  - GTK takes the last of two equal-size folders, so XFCE gets Surfn's colour.
+  - KDE ignores folders whose context it doesn't know, so Plasma keeps Breeze.
+  - Checked on the VM with GTK lookups, `kiconfinder6` and XFCE's desktop menu.
+- New step 12: the build writes `Name=Surfn Kiro` / `Comment=` itself. Before, a rebuild reset `index.theme` to
+  Surfn's name. `changed.tsv` moves from `usr/share/icons/` (it would ship) to `_src/`.
 - `LICENSE-breeze`: 34 files added (3,319).
 - Variety asks `variety-indicator` (`-dark` with the Dark option). Surfn keeps those in `panel/`, and KDE skips
   folders with `Context=Panel`: KIconLoader then drops the last part of the name and shows `variety`. New step 11
@@ -49,7 +65,9 @@
 - `usr/share/icons/Surfn-Kiro/{actions,apps}/*/system-*-surfn.svg` (new) and the aliases linking to them
 - `usr/share/icons/Surfn-Kiro/status/symbolic/variety-indicator{,-dark}.svg` (new)
 - `usr/share/icons/Surfn-Kiro/apps/scalable/user-identity.svg` (link to `user.svg` -> own line drawing)
-- `usr/share/icons/Surfn-Kiro/actions/{16,22,24,32,scalable}/xfsm-logout.svg` (link to `system-logout.svg`)
+- `usr/share/icons/Surfn-Kiro/actions/{16,22,24,32}/xfsm-logout.svg` (link to `system-log-out.svg`)
+- `usr/share/icons/Surfn-Kiro/actions-gtk/*` (new, 2,262 files), `index.theme` (8 folders)
+- `usr/share/icons/Surfn-Kiro/**` panel/tray/session icons: fallback colour `#8c939d` → `#ffffff` (~760 files)
 - `LICENSE-breeze`
 - `LICENSE-third-party`, `README.md`
 - `CHANGELOG.md`
