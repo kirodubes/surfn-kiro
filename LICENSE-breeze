@@ -5,7 +5,7 @@ These files are from breeze-icons 6.31.0 by the KDE Visual Design Group
 (https://www.gnu.org/licenses/lgpl-3.0.html). Change: the ColorScheme-Text fallback colour
 (#232629, used outside Plasma) is #8c939d.
 
-3319 files under usr/share/icons/Surfn-Kiro/:
+3320 files under usr/share/icons/Surfn-Kiro/:
 
 actions/16/address-book-new.svg
 actions/16/align-horizontal-bottom-out.svg
@@ -2053,6 +2053,7 @@ apps/24/kdeconnect-symbolic.svg
 apps/24/plasmavault-symbolic.svg
 apps/24@2x/kdeconnect-symbolic.svg
 apps/24@2x/plasmavault-symbolic.svg
+apps/scalable/user-identity.svg
 devices/16/audio-input-microphone-symbolic.svg
 devices/16/audio-radio-symbolic.svg
 devices/16/audio-speakers-symbolic.svg

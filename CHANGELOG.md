@@ -7,6 +7,8 @@
 - The Plasma leave screen showed Log Out as Surfn's green disc (and Shut Down as its red one) next to a white Cancel.
   Every button there (Log Out, Restart, Shut Down, Sleep, Hibernate) is now Breeze's monochrome line icon, white on
   dark and dark on light, like Cancel.
+- The user picture on the leave screen (when no face is set) was Surfn's orange avatar; it is now Breeze's line
+  person in the same white.
 - Variety's tray icon was the colourful Variety app icon on Plasma; it is now a monochrome line icon (Surfn-Plasma's
   art), white on dark and dark on light.
 
@@ -21,7 +23,10 @@
     (`reboot`, `view-refresh`, `xfpm-suspend`, ...).
 - Aliases keep Surfn's art where Breeze has no file of that size (`application-exit`, `gtk-quit`, ... at 16 px and
   scalable) through `system-shutdown-surfn.svg`; `system-logout.svg` (Surfn's own name) stays as it was.
-- `LICENSE-breeze`: 34 files added (3,319).
+- The avatar is `user-identity` at 64 px, found in `apps/scalable` (a link to Surfn's `user.svg`). Step 10 now
+  writes `_src/leave/user-identity.svg` there (Breeze's 24 px line person, SVG so it scales); the other names
+  linking to `user.svg` keep Surfn's orange.
+- `LICENSE-breeze`: 35 files added (3,320).
 - Variety asks `variety-indicator` (`-dark` with the Dark option). Surfn keeps those in `panel/`, and KDE skips
   folders with `Context=Panel`: KIconLoader then drops the last part of the name and shows `variety`. New step 11
   writes `_src/tray/variety-indicator.svg` (`ColorScheme-Text`, fallback `#8c939d`) as both names in
@@ -32,6 +37,7 @@
 - `usr/share/icons/Surfn-Kiro/actions/*/system-{log-out,reboot,shutdown,suspend,suspend-hibernate}.svg`
 - `usr/share/icons/Surfn-Kiro/{actions,apps}/*/system-*-surfn.svg` (new) and the aliases linking to them
 - `usr/share/icons/Surfn-Kiro/status/symbolic/variety-indicator{,-dark}.svg` (new)
+- `usr/share/icons/Surfn-Kiro/apps/scalable/user-identity.svg` (link to `user.svg` -> Breeze file)
 - `LICENSE-breeze`
 - `CHANGELOG.md`
 
